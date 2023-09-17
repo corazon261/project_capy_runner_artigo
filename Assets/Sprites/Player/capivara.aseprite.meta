@@ -1,0 +1,1030 @@
+fileFormatVersion: 2
+guid: dc3161af382d2184982d15ef27ce3386
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: capivara_Frame_0
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.36842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 37
+      width: 29
+      height: 19
+    spriteID: cd3c75a5e3da3384cac689a6d0f07655
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 37}
+  - name: capivara_Frame_1
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 193
+      y: 65
+      width: 29
+      height: 18
+    spriteID: 7a2056c4360d057459abcfcdb9831eac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 193, y: 65}
+  - name: capivara_Frame_2
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.35}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 193
+      y: 4
+      width: 29
+      height: 20
+    spriteID: c2b74073691c691419c9cd4e8ce00cc0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 193, y: 4}
+  - name: capivara_Frame_3
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.36842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 37
+      width: 29
+      height: 19
+    spriteID: 610e3177b7e83bf42903f2c2545a26fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 37}
+  - name: capivara_Frame_4
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 92
+      width: 29
+      height: 18
+    spriteID: aef52d43e1ad02347bf595418637b755
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 92}
+  - name: capivara_Frame_5
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 41
+      y: 92
+      width: 29
+      height: 18
+    spriteID: b2d7aaf68cf773340b64bc06dc4282b1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 41, y: 92}
+  - name: capivara_Frame_6
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 92
+      width: 29
+      height: 18
+    spriteID: 7a94552586b368f4bb8f281a3de6daaf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 92}
+  - name: capivara_Frame_7
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.36842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 37
+      width: 29
+      height: 19
+    spriteID: c2af0deef7eb6334b92135728a219fd5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 37}
+  - name: capivara_Frame_8
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.35}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 37
+      width: 29
+      height: 20
+    spriteID: dac2b015846072242bd9f2451ee1aaf2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 37}
+  - name: capivara_Frame_9
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 190
+      y: 92
+      width: 31
+      height: 16
+    spriteID: fdfe9e6132622c04c9a5fef64074397f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 190, y: 92}
+  - name: capivara_Frame_10
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 118
+      width: 31
+      height: 16
+    spriteID: 52f391db191c40d45959177d6ffaf03b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 118}
+  - name: capivara_Frame_11
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.4117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 65
+      width: 31
+      height: 17
+    spriteID: a4848a1b4e3877f41ba64d38946b1b92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 65}
+  - name: capivara_Frame_12
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.4117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 154
+      y: 65
+      width: 31
+      height: 17
+    spriteID: bf129606325de1e4cabad1c7bfaa07b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 154, y: 65}
+  - name: capivara_Frame_13
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.53333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 118
+      width: 31
+      height: 15
+    spriteID: 88e75a526dc52fa49826a6080a3a98d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 160, y: 118}
+  - name: capivara_Frame_14
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.53333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 118
+      width: 31
+      height: 15
+    spriteID: 9f798d91c2ef939498284222dc708d2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 118}
+  - name: capivara_Frame_15
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.4375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 43
+      y: 118
+      width: 31
+      height: 16
+    spriteID: e1c7fb43a292b8f44acbd255c8111dcf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 43, y: 118}
+  - name: capivara_Frame_16
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.4375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 118
+      width: 31
+      height: 16
+    spriteID: 77da71b29a26a02468ee246b32b68ccf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 118}
+  - name: capivara_Frame_17
+    originalName: 
+    pivot: {x: 0.48387095, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 121
+      y: 118
+      width: 31
+      height: 16
+    spriteID: b250de8dc08e04b4eaa1ff63562fe166
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 121, y: 118}
+  - name: capivara_Frame_18
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.36842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 189
+      y: 37
+      width: 29
+      height: 19
+    spriteID: 62f3e0446c3f23449af2654f5fcd6a87
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 189, y: 37}
+  - name: capivara_Frame_19
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.35}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 41
+      y: 37
+      width: 29
+      height: 20
+    spriteID: 060835f224fca2f41ab24f8596677413
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 41, y: 37}
+  - name: capivara_Frame_20
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.3181818}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 4
+      width: 29
+      height: 22
+    spriteID: 316e3b43298418046b1012eac741b153
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 4}
+  - name: capivara_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -0.30434784}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 42
+      y: 4
+      width: 30
+      height: 23
+    spriteID: 8af05d5b59474424e91f44b65dfcb35b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 42, y: 4}
+  - name: capivara_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -0.28}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 30
+      height: 25
+    spriteID: 84bf259d9ce46d7458ff9fd9c67f8bff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: capivara_Frame_23
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.36842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 65
+      width: 29
+      height: 19
+    spriteID: b20d942221acdf94f8edd0ee32182d8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 65}
+  - name: capivara_Frame_24
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.3888889}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 115
+      y: 92
+      width: 29
+      height: 18
+    spriteID: b182045a191a127499574317441b0e34
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 115, y: 92}
+  - name: capivara_Frame_25
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.4117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 142
+      width: 29
+      height: 17
+    spriteID: 0f1ca9cf7d1c0ad45ac6d646bff74661
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 142}
+  - name: capivara_Frame_26
+    originalName: 
+    pivot: {x: 0.5, y: -0.35}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 155
+      y: 4
+      width: 30
+      height: 20
+    spriteID: 9b858d58c77ef1149b0a776ade40a074
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 155, y: 4}
+  - name: capivara_Frame_27
+    originalName: 
+    pivot: {x: 0.5, y: -0.33333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 117
+      y: 4
+      width: 30
+      height: 21
+    spriteID: 48f64c992856dc94a814d90a00de9750
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 117, y: 4}
+  - name: capivara_Frame_28
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.36842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 41
+      y: 65
+      width: 29
+      height: 19
+    spriteID: 61ac9cbe54fe18d4184de6b7c34e490e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 41, y: 65}
+  - name: capivara_Frame_29
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.4117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 41
+      y: 142
+      width: 29
+      height: 17
+    spriteID: 60068521ad3d25145afbe7f68fab85a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 41, y: 142}
+  - name: capivara_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -0.4117647}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 152
+      y: 92
+      width: 30
+      height: 17
+    spriteID: d49dac1ecdbfc524588d99e940b068a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 152, y: 92}
+  - name: capivara_Frame_31
+    originalName: 
+    pivot: {x: 0.4827586, y: -0.36842105}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 78
+      y: 65
+      width: 29
+      height: 19
+    spriteID: 22913509a6ca98b45b78547e00f7be29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 78, y: 65}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -373473929
+    name: capivara
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: capivara_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 19
+      spriteId: cd3c75a5e3da3384cac689a6d0f07655
+    - name: capivara_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 18
+      spriteId: 7a2056c4360d057459abcfcdb9831eac
+    - name: capivara_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 20
+      spriteId: c2b74073691c691419c9cd4e8ce00cc0
+    - name: capivara_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 19
+      spriteId: 610e3177b7e83bf42903f2c2545a26fa
+    - name: capivara_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 18
+      spriteId: aef52d43e1ad02347bf595418637b755
+    - name: capivara_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 18
+      spriteId: b2d7aaf68cf773340b64bc06dc4282b1
+    - name: capivara_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 18
+      spriteId: 7a94552586b368f4bb8f281a3de6daaf
+    - name: capivara_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 19
+      spriteId: c2af0deef7eb6334b92135728a219fd5
+    - name: capivara_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 20
+      spriteId: dac2b015846072242bd9f2451ee1aaf2
+    - name: capivara_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 1
+        y: 8
+        width: 31
+        height: 16
+      spriteId: fdfe9e6132622c04c9a5fef64074397f
+    - name: capivara_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 1
+        y: 8
+        width: 31
+        height: 16
+      spriteId: 52f391db191c40d45959177d6ffaf03b
+    - name: capivara_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 1
+        y: 7
+        width: 31
+        height: 17
+      spriteId: a4848a1b4e3877f41ba64d38946b1b92
+    - name: capivara_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 1
+        y: 7
+        width: 31
+        height: 17
+      spriteId: bf129606325de1e4cabad1c7bfaa07b0
+    - name: capivara_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 1
+        y: 8
+        width: 31
+        height: 15
+      spriteId: 88e75a526dc52fa49826a6080a3a98d9
+    - name: capivara_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 1
+        y: 8
+        width: 31
+        height: 15
+      spriteId: 9f798d91c2ef939498284222dc708d2b
+    - name: capivara_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 1
+        y: 7
+        width: 31
+        height: 16
+      spriteId: e1c7fb43a292b8f44acbd255c8111dcf
+    - name: capivara_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 1
+        y: 7
+        width: 31
+        height: 16
+      spriteId: 77da71b29a26a02468ee246b32b68ccf
+    - name: capivara_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 1
+        y: 8
+        width: 31
+        height: 16
+      spriteId: b250de8dc08e04b4eaa1ff63562fe166
+    - name: capivara_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 19
+      spriteId: 62f3e0446c3f23449af2654f5fcd6a87
+    - name: capivara_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 20
+      spriteId: 060835f224fca2f41ab24f8596677413
+    - name: capivara_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 22
+      spriteId: 316e3b43298418046b1012eac741b153
+    - name: capivara_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 1
+        y: 7
+        width: 30
+        height: 23
+      spriteId: 8af05d5b59474424e91f44b65dfcb35b
+    - name: capivara_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 1
+        y: 7
+        width: 30
+        height: 25
+      spriteId: 84bf259d9ce46d7458ff9fd9c67f8bff
+    - name: capivara_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 19
+      spriteId: b20d942221acdf94f8edd0ee32182d8b
+    - name: capivara_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 18
+      spriteId: b182045a191a127499574317441b0e34
+    - name: capivara_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 17
+      spriteId: 0f1ca9cf7d1c0ad45ac6d646bff74661
+    - name: capivara_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 1
+        y: 7
+        width: 30
+        height: 20
+      spriteId: 9b858d58c77ef1149b0a776ade40a074
+    - name: capivara_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 1
+        y: 7
+        width: 30
+        height: 21
+      spriteId: 48f64c992856dc94a814d90a00de9750
+    - name: capivara_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 19
+      spriteId: 61ac9cbe54fe18d4184de6b7c34e490e
+    - name: capivara_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 17
+      spriteId: 60068521ad3d25145afbe7f68fab85a3
+    - name: capivara_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 1
+        y: 7
+        width: 30
+        height: 17
+      spriteId: d49dac1ecdbfc524588d99e940b068a4
+    - name: capivara_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 2
+        y: 7
+        width: 29
+        height: 19
+      spriteId: 22913509a6ca98b45b78547e00f7be29
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}
