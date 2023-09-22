@@ -10,14 +10,22 @@ namespace Player
         public float Speed = 5;
         public float JumpForce = 10;
 
-        private void Start()
+        private InterfaceWorldController ui;
+        [SerializeField]
+        private bool chaveSairCasa = false;
+        
+        private void Awake()
         {
             Health = MaxHealth;
+            ui = GameObject.Find("Canvas").GetComponent<InterfaceWorldController>();
+            
         }
 
         public void TakeDamage(int damage)
         {
             Health -= damage;
+            ui.Atualiza();
+            CheckIfDead();
         }
 
         private void CheckIfDead()
@@ -27,6 +35,16 @@ namespace Player
                 Time.timeScale = 0;
                 Debug.Log("Você morreu");
             }
+        }
+
+        public void PegarChave()
+        {
+            chaveSairCasa = true;
+        }
+
+        public bool VerificaChave()
+        {
+            return chaveSairCasa;
         }
     }
 }

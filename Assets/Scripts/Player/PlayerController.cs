@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Player
@@ -43,6 +44,11 @@ namespace Player
             }   
         }
 
+        public float GetDirectionX()
+        {
+            return directionX;
+        }
+
         private void Move()
         {
             var movement = new Vector3(directionX, 0f);
@@ -63,16 +69,24 @@ namespace Player
             
         private void OnCollisionEnter2D(Collision2D other)
         {
-            if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
+            if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.CompareTag("Box"))
             {
                 isGrounded = true;
                 playerAnimator.FallAnimation();
             }
         }
 
+        private void OnCollisionStay2D(Collision2D other)
+        {
+            if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.CompareTag("Box"))
+            {
+                isGrounded = true;
+            }
+        }
+
         private void OnCollisionExit2D(Collision2D other)
         {
-            if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
+            if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.CompareTag("Box"))
             {
                 isGrounded = false;
             }

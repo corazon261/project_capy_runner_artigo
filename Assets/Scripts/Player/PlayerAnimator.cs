@@ -42,6 +42,8 @@ namespace Player
             {
                 spriteRenderer.flipX = false;
             }            
+            
+            
         }
 
         public void MoveAnimation(bool isMoving)
