@@ -11,6 +11,7 @@ namespace Player
         private static readonly int Atacar = Animator.StringToHash("atacar");
         private static readonly int TocarChao = Animator.StringToHash("tocarChao");
         private static readonly int Pular = Animator.StringToHash("pular");
+        private static readonly int Dano = Animator.StringToHash("dano");
 
         private void Awake()
         {
@@ -31,6 +32,11 @@ namespace Player
         public void AttackAnimation()
         {
             animator.SetTrigger(Atacar);
+        }
+
+        public void HurtAnimation()
+        {
+            animator.SetTrigger(Dano);
         }
 
         public void FlipX(float directionX)

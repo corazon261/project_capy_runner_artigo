@@ -9,6 +9,7 @@ namespace Player
         public int Strength = 1;
         public float Speed = 5;
         public float JumpForce = 10;
+        private PlayerAnimator animator;
 
         private InterfaceWorldController ui;
         [SerializeField]
@@ -18,12 +19,13 @@ namespace Player
         {
             Health = MaxHealth;
             ui = GameObject.Find("Canvas").GetComponent<InterfaceWorldController>();
-            
+            animator = GetComponent<PlayerAnimator>();
         }
 
         public void TakeDamage(int damage)
         {
             Health -= damage;
+            animator.HurtAnimation();
             ui.Atualiza();
             CheckIfDead();
         }
