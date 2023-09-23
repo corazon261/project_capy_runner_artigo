@@ -12,7 +12,7 @@ namespace Player
         private bool isGrounded;
         private PlayerAnimator playerAnimator;
         
-        
+
         private void Start()
         {
             rig = GetComponent<Rigidbody2D>();
@@ -27,6 +27,10 @@ namespace Player
             HandleInput();
             Move();
             playerAnimator.FlipX(directionX);
+
+            Vector2 vel = new Vector2(0, Mathf.Clamp(rig.velocity.y, -10, 10));
+            vel.x = Mathf.Clamp(rig.velocity.x, -10, 10);
+            rig.velocity = vel;
         }
 
         private void HandleInput()
@@ -51,10 +55,10 @@ namespace Player
 
         private void Move()
         {
-            var movement = new Vector3(directionX, 0f);
-            transform.position += movement * (Time.deltaTime * playerStatus.Speed);
+            var vel = directionX * ( playerStatus.Speed);
+            rig.velocity = new Vector2(vel, rig.velocity.y);
 
-            playerAnimator.MoveAnimation(Input.GetButton("Horizontal"));
+            playerAnimator.MoveAnimation(directionX != 0);
         }
 
         private void Jump()
@@ -65,6 +69,7 @@ namespace Player
         private void Attack()
         {
             playerAnimator.AttackAnimation();
+            Debug.Log(rig.velocity);
         }
             
         private void OnCollisionEnter2D(Collision2D other)
