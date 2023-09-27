@@ -19,9 +19,11 @@ namespace Player
         private PlayerStatus playerStatus;
         private float directionX;
         private Rigidbody2D rig;
+        [SerializeField]
         private bool isGrounded;
         private PlayerAnimator playerAnimator;
         private bool isOnSlope;
+        [SerializeField]
         private bool isJumping;
         private Vector2 perpendicularSpeed;
 
@@ -97,13 +99,13 @@ namespace Player
 
         private void DetectGround()
         {
-            var hit = Physics2D.Raycast(transform.position, Vector3.down, DistanceToGround, GroundMask);
-            isGrounded = hit;
+            var hitGround = Physics2D.Raycast(transform.position, Vector3.down, DistanceToGround, GroundMask);
+            var hitBox = Physics2D.Raycast(transform.position, Vector3.down, DistanceToGround, GroundMask);
+            isGrounded = hitGround || hitBox;
             Debug.DrawRay(transform.position, Vector3.down * DistanceToGround, Color.red);
             
-            Vector2 groundNormal = hit.normal;
+            Vector2 groundNormal = hitGround.normal;
             float groundAngle = Vector2.Angle(Vector2.up, groundNormal);
-            Debug.Log(groundAngle);
             if (groundAngle != 0)
             {
                 perpendicularSpeed = Vector2.Perpendicular(groundNormal).normalized;
