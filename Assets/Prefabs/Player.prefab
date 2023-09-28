@@ -548,10 +548,11 @@ MonoBehaviour:
   GroundMask:
     serializedVersion: 2
     m_Bits: 64
+  JumpableMask:
+    serializedVersion: 2
+    m_Bits: 128
   FrictionMaterial: {fileID: 6200000, guid: c1457092e4c279149af3d0325ddf7d18, type: 2}
   NoFrictionMaterial: {fileID: 6200000, guid: 01fa661bfb48ba54b89f3df803266223, type: 2}
-  isGrounded: 0
-  isJumping: 0
 --- !u!114 &179304181661053480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -581,7 +582,6 @@ MonoBehaviour:
   Strength: 1
   Speed: 5
   JumpForce: 7
-  chaveSairCasa: 0
 --- !u!70 &240104154
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
