@@ -13,6 +13,7 @@ namespace Player
         public float MaxVelocityRight = 15;
         public float DistanceToGround = 5;
         public LayerMask GroundMask;
+        public LayerMask JumpableMask;
         public PhysicsMaterial2D FrictionMaterial; 
         public PhysicsMaterial2D NoFrictionMaterial; 
 
@@ -100,7 +101,7 @@ namespace Player
         private void DetectGround()
         {
             var hitGround = Physics2D.Raycast(transform.position, Vector3.down, DistanceToGround, GroundMask);
-            var hitBox = Physics2D.Raycast(transform.position, Vector3.down, DistanceToGround, GroundMask);
+            var hitBox = Physics2D.Raycast(transform.position, Vector3.down, DistanceToGround, JumpableMask);
             isGrounded = hitGround || hitBox;
             Debug.DrawRay(transform.position, Vector3.down * DistanceToGround, Color.red);
             

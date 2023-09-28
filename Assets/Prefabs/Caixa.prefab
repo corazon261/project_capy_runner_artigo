@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7148246231042562766}
   - component: {fileID: 7148246231042562763}
   - component: {fileID: 7148246231042562764}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Caixa
   m_TagString: Box
   m_Icon: {fileID: 0}
