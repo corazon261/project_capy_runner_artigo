@@ -12,8 +12,7 @@ namespace Player
         private PlayerAnimator animator;
 
         private InterfaceWorldController ui;
-        [SerializeField]
-        private bool chaveSairCasa = false;
+        private bool chaveSairCasa;
         
         private void Awake()
         {
