@@ -1,25 +1,25 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Tyre : MonoBehaviour
+namespace Objects
 {
-    public float JumpForce = 13;
-    private Animator animator;
-
-    private void Start()
+    public class Tyre : MonoBehaviour
     {
-        animator = GetComponent<Animator>();
-    }
+        public float JumpForce = 13;
+        private Animator animator;
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Box"))
+        private void Start()
         {
-            animator.SetTrigger("pular");
-            var rig = other.gameObject.GetComponent<Rigidbody2D>();
-            rig.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
+            animator = GetComponent<Animator>();
+        }
+
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Box"))
+            {
+                animator.SetTrigger("pular");
+                var rig = other.gameObject.GetComponent<Rigidbody2D>();
+                rig.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
+            }
         }
     }
 }
