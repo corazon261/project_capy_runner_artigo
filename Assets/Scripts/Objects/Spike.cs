@@ -1,28 +1,28 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using Player;
 using UnityEngine;
 
-public class Spike : MonoBehaviour
+namespace Objects
 {
-    public float ImpulseForce = 10;
-    private void OnCollisionEnter2D(Collision2D other)
+    public class Spike : MonoBehaviour
     {
-        if (other.gameObject.CompareTag("Player"))
+        public float ImpulseForce = 10;
+        private void OnCollisionEnter2D(Collision2D other)
         {
-            other.gameObject.GetComponent<PlayerStatus>().TakeDamage(1);
-            var directionX = other.gameObject.GetComponent<PlayerController>().GetDirectionX();
-            var rig = other.gameObject.GetComponent<Rigidbody2D>();
-            if (directionX > 0)
+            if (other.gameObject.CompareTag("Player"))
             {
-                directionX = -1;
+                other.gameObject.GetComponent<PlayerStatus>().TakeDamage(1);
+                var directionX = other.gameObject.GetComponent<PlayerController>().GetDirectionX();
+                var rig = other.gameObject.GetComponent<Rigidbody2D>();
+                if (directionX > 0)
+                {
+                    directionX = -1;
+                }
+                else
+                {
+                    directionX = 1;
+                }
+                rig.AddForce(new Vector2((ImpulseForce * directionX), 5f), ForceMode2D.Impulse);
             }
-            else
-            {
-                directionX = 1;
-            }
-            rig.AddForce(new Vector2((ImpulseForce * directionX), 5f), ForceMode2D.Impulse);
         }
     }
 }
