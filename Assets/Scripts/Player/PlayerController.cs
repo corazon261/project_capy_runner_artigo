@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.Serialization;
+using UnityEngine.UIElements;
 
 namespace Player
 {
@@ -20,13 +21,14 @@ namespace Player
         private PlayerStatus playerStatus;
         private float directionX;
         private Rigidbody2D rig;
-        [SerializeField]
-        private bool isGrounded;
+        private bool isOnJumpable;
         private PlayerAnimator playerAnimator;
         private bool isOnSlope;
-        [SerializeField]
         private bool isJumping;
         private Vector2 perpendicularSpeed;
+        private float groundAngle;
+        private Vector2 groundNormal;
+        private Vector2 position;
 
 
         private void Start()
@@ -39,21 +41,17 @@ namespace Player
 
         public void Update()
         {
+            position = transform.position;
             directionX = Input.GetAxis("Horizontal");
             HandleInput();
             Move();
-            playerAnimator.FlipX(directionX);
-
-            Vector2 vel = new Vector2(0, Mathf.Clamp(rig.velocity.y, -MaxVelocityDown, MaxVelocityUp));
-            vel.x = Mathf.Clamp(rig.velocity.x, -MaxVelocityLeft, MaxVelocityRight);
-            rig.velocity = vel;
-            
             DetectGround();
+            DetectSlope();
         }
 
         private void HandleInput()
         {
-            if (Input.GetButtonDown("Jump") && isGrounded && !isJumping)
+            if (Input.GetButtonDown("Jump") && isOnJumpable && !isJumping)
             {
                 playerAnimator.JumpAnimation();
                 Jump();
@@ -73,8 +71,9 @@ namespace Player
 
         private void Move()
         {
+            playerAnimator.FlipX(directionX);
             var vel = directionX * (playerStatus.Speed);
-            
+
             if (isOnSlope && !isJumping)
             {
                 rig.velocity = new Vector2(-vel * perpendicularSpeed.x, -vel * perpendicularSpeed.y); 
@@ -83,7 +82,8 @@ namespace Player
             {
                 rig.velocity = new Vector2(vel, rig.velocity.y);
             }
-
+            
+            VelocityLimiter();
             playerAnimator.MoveAnimation(directionX != 0);
         }
 
@@ -100,13 +100,18 @@ namespace Player
 
         private void DetectGround()
         {
-            var hitGround = Physics2D.Raycast(transform.position, Vector3.down, DistanceToGround, GroundMask);
-            var hitBox = Physics2D.Raycast(transform.position, Vector3.down, DistanceToGround, JumpableMask);
-            isGrounded = hitGround || hitBox;
-            Debug.DrawRay(transform.position, Vector3.down * DistanceToGround, Color.red);
+            var hitGround = Physics2D.Raycast(position, Vector3.down, DistanceToGround, GroundMask);
+            var hitJumpable = Physics2D.Raycast(position, Vector3.down, DistanceToGround, JumpableMask);
+            isOnJumpable = hitGround || hitJumpable;
             
-            Vector2 groundNormal = hitGround.normal;
-            float groundAngle = Vector2.Angle(Vector2.up, groundNormal);
+            Debug.DrawRay(position, Vector3.down * DistanceToGround, Color.red);
+            
+            groundNormal = hitGround.normal;
+            groundAngle = Vector2.Angle(Vector2.up, groundNormal);
+        }
+
+        private void DetectSlope()
+        {
             if (groundAngle != 0)
             {
                 perpendicularSpeed = Vector2.Perpendicular(groundNormal).normalized;
@@ -116,15 +121,22 @@ namespace Player
             {
                 isOnSlope = false;
             }
-
+            
             rig.sharedMaterial = isOnSlope && Input.GetAxis("Horizontal") == 0 ? FrictionMaterial : NoFrictionMaterial;
+        }
+
+        private void VelocityLimiter()
+        {
+            var vel = new Vector2(0, Mathf.Clamp(rig.velocity.y, -MaxVelocityDown, MaxVelocityUp));
+            vel.x = Mathf.Clamp(rig.velocity.x, -MaxVelocityLeft, MaxVelocityRight);
+            rig.velocity = vel;
         }
 
         private void OnCollisionEnter2D(Collision2D other)
         {
             if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.CompareTag("Box"))
             {
-                isGrounded = true;
+                isOnJumpable = true;
                 isJumping = false;
                 playerAnimator.FallAnimation();
             }
