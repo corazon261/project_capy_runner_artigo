@@ -1,17 +1,17 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using Player;
 using UnityEngine;
 
-public class Chave : MonoBehaviour
+namespace Items
 {
-    private void OnTriggerEnter2D(Collider2D other)
+    public class Chave : MonoBehaviour
     {
-        if (other.gameObject.CompareTag("Player"))
+        private void OnTriggerEnter2D(Collider2D other)
         {
-            GameObject.FindWithTag("Player").GetComponent<PlayerStatus>().PegarChave();
-            Destroy(gameObject);
+            if (other.gameObject.CompareTag("Player"))
+            {
+                GameObject.FindWithTag("Player").GetComponent<PlayerStatus>().PegarChave();
+                Destroy(gameObject);
+            }
         }
     }
 }
