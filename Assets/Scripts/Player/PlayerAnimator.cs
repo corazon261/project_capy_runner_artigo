@@ -19,6 +19,16 @@ namespace Player
             spriteRenderer = GetComponent<SpriteRenderer>();
         }
 
+        public void PauseAnimation()
+        {
+            animator.speed = 0;
+        }
+
+        public void PlayAnimation()
+        {
+            animator.speed = 1;
+        }
+        
         public void JumpAnimation()
         {
             animator.SetTrigger(Pular);

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Player
@@ -131,11 +132,20 @@ namespace Player
 
         private void OnCollisionEnter2D(Collision2D other)
         {
-            if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.CompareTag("Box"))
+            if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.CompareTag("Box") || other.gameObject.layer == LayerMask.NameToLayer("Harmable"))
             {
                 isOnJumpable = true;
                 isJumping = false;
+                playerAnimator.PlayAnimation();
                 playerAnimator.FallAnimation();
+            }
+        }
+
+        private void OnCollisionStay2D(Collision2D other)
+        {
+            if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.CompareTag("Box"))
+            {
+                playerAnimator.PlayAnimation();
             }
         }
     }
