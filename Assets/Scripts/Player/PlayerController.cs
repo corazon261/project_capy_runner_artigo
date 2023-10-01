@@ -41,6 +41,7 @@ namespace Player
         {
             position = transform.position;
             directionX = Input.GetAxis("Horizontal");
+            transform.position = new Vector3(position.x, position.y, -5);
             HandleInput();
             Move();
             DetectGround();
