@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7077200449754127925}
   - component: {fileID: 4142812077807392170}
+  - component: {fileID: 6803420150798568285}
   m_Layer: 0
   m_Name: MudaCamera
   m_TagString: Untagged
@@ -56,5 +57,19 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4, y: 0.64}
+  m_Size: {x: 0.01, y: 3}
   m_EdgeRadius: 0
+--- !u!114 &6803420150798568285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813675755363938543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4212514153e69754a96ec3cf8a021c5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ToCamera: {fileID: 0}
+  PreviousCamera: {fileID: 0}
