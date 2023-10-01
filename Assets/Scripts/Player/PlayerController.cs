@@ -143,7 +143,7 @@ namespace Player
 
         private void OnCollisionStay2D(Collision2D other)
         {
-            if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.CompareTag("Box"))
+            if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.CompareTag("Box") || other.gameObject.layer == LayerMask.NameToLayer("Harmable"))
             {
                 playerAnimator.PlayAnimation();
             }
