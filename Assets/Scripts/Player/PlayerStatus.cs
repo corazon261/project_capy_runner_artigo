@@ -11,13 +11,14 @@ namespace Player
         public float JumpForce = 10;
         private PlayerAnimator animator;
 
-        private InterfaceWorldController ui;
+        public Canvas Ui;
+        private InterfaceWorldController interfaceWorldController;
         private bool chaveSairCasa;
         
         private void Awake()
         {
             Health = MaxHealth;
-            ui = GameObject.Find("Canvas").GetComponent<InterfaceWorldController>();
+            interfaceWorldController = Ui.GetComponent<InterfaceWorldController>();
             animator = GetComponent<PlayerAnimator>();
         }
 
@@ -25,7 +26,7 @@ namespace Player
         {
             Health -= damage;
             animator.HurtAnimation();
-            ui.Atualiza();
+            interfaceWorldController.Atualiza();
             CheckIfDead();
         }
 
