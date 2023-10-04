@@ -21,7 +21,7 @@ namespace Animals.Jaileds
 
         private void Update()
         {
-            if (insideArea && Input.GetKeyDown(KeyCode.X))
+            if (insideArea && Input.GetButtonDown("Vertical"))
             {
                 foreach (var animal in animals)
                 {
@@ -32,10 +32,6 @@ namespace Animals.Jaileds
                     else
                     {
                         animal.MudarTransparente();
-                        foreach (var cameraSlide in cameraSlides)
-                        {
-                            cameraSlide.IniciaMovimento();
-                        }
                     }
                 }
             }
