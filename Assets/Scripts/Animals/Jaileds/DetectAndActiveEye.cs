@@ -1,31 +1,65 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using Ui;
 using UnityEngine;
+using Utils;
 
-public class DetectAndActiveEye : MonoBehaviour
+namespace Animals.Jaileds
 {
-    private UIManager uiManager;
-
-    private void Start()
+    public class DetectAndActiveEye : MonoBehaviour
     {
-        uiManager = FindObjectOfType<Canvas>().GetComponent<UIManager>();
-    }
-
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
+        private UIManager uiManager;
+        private bool insideArea;
+        private ChangeOpacity[] animals;
+        private CameraSlide[] cameraSlides;
+        
+        private void Start()
         {
-            uiManager.ShowEye(true);
+            uiManager = FindObjectOfType<Canvas>().GetComponent<UIManager>();
+            animals = FindObjectsOfType<ChangeOpacity>();
+            cameraSlides = FindObjectsOfType<CameraSlide>();
         }
-    }
 
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
+        private void Update()
         {
-            uiManager.ShowEye(false);
+            if (insideArea && Input.GetKeyDown(KeyCode.X))
+            {
+                foreach (var animal in animals)
+                {
+                    if (animal.GetIsTransparent())
+                    {
+                        animal.MudarNormal();
+                    }
+                    else
+                    {
+                        animal.MudarTransparente();
+                        foreach (var cameraSlide in cameraSlides)
+                        {
+                            cameraSlide.IniciaMovimento();
+                        }
+                    }
+                }
+            }
         }
+
+        private void OnTriggerStay2D(Collider2D other)
+        {
+            if (other.gameObject.CompareTag("Player"))
+            {
+                uiManager.ShowEye(true);
+                insideArea = true;
+            }
+        }
+
+        private void OnTriggerExit2D(Collider2D other)
+        {
+            if (other.gameObject.CompareTag("Player"))
+            {
+                uiManager.ShowEye(false);
+                insideArea = false;
+                foreach (var animal in animals) {
+                    animal.MudarNormal();
+                }
+            }
+        }   
     }
 }
