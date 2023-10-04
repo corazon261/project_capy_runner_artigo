@@ -581,7 +581,8 @@ MonoBehaviour:
   Health: 0
   Strength: 1
   Speed: 7
-  JumpForce: 7
+  JumpForce: 10
+  Ui: {fileID: 0}
 --- !u!70 &240104154
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
