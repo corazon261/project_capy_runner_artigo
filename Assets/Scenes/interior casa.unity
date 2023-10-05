@@ -802,8 +802,9 @@ GameObject:
   m_Component:
   - component: {fileID: 347475118}
   - component: {fileID: 347475119}
+  - component: {fileID: 347475120}
   m_Layer: 6
-  m_Name: parede (22)
+  m_Name: collider passavel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -835,7 +836,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: -3.5391192, y: 2.1153634}
   m_SpriteTilingProperty:
@@ -850,6 +851,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.419223, y: 0.23307323}
   m_EdgeRadius: 0
+--- !u!251 &347475120
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347475117}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &400835102
 GameObject:
   m_ObjectHideFlags: 0
@@ -1596,8 +1616,9 @@ GameObject:
   m_Component:
   - component: {fileID: 710200301}
   - component: {fileID: 710200302}
+  - component: {fileID: 710200303}
   m_Layer: 6
-  m_Name: parede (20)
+  m_Name: collider passavel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1629,7 +1650,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: -3.5391192, y: 2.1153634}
   m_SpriteTilingProperty:
@@ -1644,6 +1665,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.419223, y: 0.23307323}
   m_EdgeRadius: 0
+--- !u!251 &710200303
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710200300}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &804377819 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 108fabb4f93429f4e8206b467346b918, type: 3}
@@ -2975,8 +3015,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1221382234}
   - component: {fileID: 1221382235}
+  - component: {fileID: 1221382236}
   m_Layer: 6
-  m_Name: parede (19)
+  m_Name: collider passavel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3008,7 +3049,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: -3.5391192, y: 2.1153634}
   m_SpriteTilingProperty:
@@ -3023,6 +3064,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.419223, y: 0.23307323}
   m_EdgeRadius: 0
+--- !u!251 &1221382236
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1221382233}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1 &1225845842 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: b7d2de5fc226d0c4d8a889806b1b1a43, type: 3}
@@ -3830,8 +3890,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1575708554}
   - component: {fileID: 1575708555}
+  - component: {fileID: 1575708556}
   m_Layer: 6
-  m_Name: parede (21)
+  m_Name: collider passavel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3863,7 +3924,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: -3.5391192, y: 2.1153634}
   m_SpriteTilingProperty:
@@ -3878,6 +3939,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.419223, y: 0.23307323}
   m_EdgeRadius: 0
+--- !u!251 &1575708556
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575708553}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &1584602120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4735,8 +4815,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1793760169}
   - component: {fileID: 1793760170}
+  - component: {fileID: 1793760171}
   m_Layer: 6
-  m_Name: parede (17)
+  m_Name: collider passavel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4768,7 +4849,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: -3.5391192, y: 2.1153634}
   m_SpriteTilingProperty:
@@ -4783,6 +4864,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.419223, y: 0.23307323}
   m_EdgeRadius: 0
+--- !u!251 &1793760171
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793760168}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 130
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
 --- !u!1001 &1804148787
 PrefabInstance:
   m_ObjectHideFlags: 0
