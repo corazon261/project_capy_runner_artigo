@@ -1,3 +1,4 @@
+using CameraUtils;
 using UnityEngine;
 
 namespace Utils
@@ -5,16 +6,17 @@ namespace Utils
     public class ChangeCamera : MonoBehaviour
     {
         public Camera ToCamera;
-        public Camera PreviousCamera;
-
-        private void OnTriggerExit2D(Collider2D other)
+        private CameraHandler cameraHandler;
+        
+        private void Start()
         {
-            if (other.gameObject.CompareTag("Player"))
-            {
-                PreviousCamera.enabled = false;
-                ToCamera.enabled = true;
-                (PreviousCamera, ToCamera) = (ToCamera, PreviousCamera);
-            }
+            cameraHandler = FindObjectOfType<CameraHandler>();
+        }
+
+        public void ChangeActiveCamera()
+        {
+            cameraHandler.DisableAllCameras();
+            ToCamera.enabled = true;
         }
     }
 }
