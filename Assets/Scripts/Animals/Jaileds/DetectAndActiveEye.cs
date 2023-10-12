@@ -10,13 +10,11 @@ namespace Animals.Jaileds
         private UIManager uiManager;
         private bool insideArea;
         private ChangeOpacity[] animals;
-        private CameraSlide[] cameraSlides;
         
         private void Start()
         {
             uiManager = FindObjectOfType<Canvas>().GetComponent<UIManager>();
             animals = FindObjectsOfType<ChangeOpacity>();
-            cameraSlides = FindObjectsOfType<CameraSlide>();
         }
 
         private void Update()
