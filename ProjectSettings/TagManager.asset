@@ -8,6 +8,7 @@ TagManager:
   - PainelObservar
   - CameraHandler
   - DialogueCanvas
+  - IconsCanvas
   layers:
   - Default
   - TransparentFX
