@@ -12,8 +12,12 @@ namespace Dialogues
             public string Name;
             public string Text;
         }
-        
+
+        public bool OneTime;
         public DialogueContent[] DialogueContents;
+        
+        [SerializeField]
+        private bool reachedEnd;
         private DialogueManager dialogueManager;
         private bool isTriggered;
         private bool onDialogue;
@@ -35,6 +39,12 @@ namespace Dialogues
                     dialogueManager.Deactivate();
                     onDialogue = false;
                     currentDialogueIndex = 0;
+                    if (OneTime)
+                    {
+                        reachedEnd = true;
+                        iconsCanvasManager.IconChat.SetActive(false);
+                    }
+                    
                     Time.timeScale = 1;
                     return;
                 }
@@ -42,7 +52,7 @@ namespace Dialogues
                 dialogueManager.PrepareDialogue(DialogueContents[currentDialogueIndex].Name, DialogueContents[currentDialogueIndex].Text);
                 dialogueManager.Activate();
                 currentDialogueIndex++;
-            } else if (isTriggered && Input.GetKeyDown(KeyCode.X) && !onDialogue)
+            } else if (isTriggered && Input.GetKeyDown(KeyCode.X) && !onDialogue && !reachedEnd)
             {
                 dialogueManager.PrepareDialogue(DialogueContents[currentDialogueIndex].Name, DialogueContents[currentDialogueIndex].Text);
                 dialogueManager.Activate();
@@ -54,7 +64,7 @@ namespace Dialogues
 
         private void OnTriggerStay2D(Collider2D other)
         {
-            if (other.CompareTag("Player"))
+            if (other.CompareTag("Player") && !reachedEnd)
             {
                 isTriggered = true;
                 iconsCanvasManager.IconChat.SetActive(true);

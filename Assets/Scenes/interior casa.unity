@@ -1452,6 +1452,10 @@ PrefabInstance:
       value: "Haha, pegamos uma capivara s\xE1dia hoje, rapazes!"
       objectReference: {fileID: 0}
     - target: {fileID: 153167701227953996, guid: d84aed13356abdb4fbd8579b66bee707, type: 3}
+      propertyPath: OneTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 153167701227953996, guid: d84aed13356abdb4fbd8579b66bee707, type: 3}
       propertyPath: DialogueContents.Array.size
       value: 6
       objectReference: {fileID: 0}
