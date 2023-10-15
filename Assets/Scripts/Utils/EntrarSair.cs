@@ -6,9 +6,9 @@ using Utils;
 
 public class EntrarSair : MonoBehaviour
 {
-    public Canvas IconCanvas;
     public Transform Destino;
 
+    private IconsCanvasManager iconCanvasScript;
     private GameObject jogador;
     private ChangeCamera scriptChangeCamera;
     private bool isInside;
@@ -17,6 +17,7 @@ public class EntrarSair : MonoBehaviour
     {
         jogador = GameObject.FindWithTag("Player");
         scriptChangeCamera = GetComponent<ChangeCamera>();
+        iconCanvasScript = GameObject.FindGameObjectWithTag("IconsCanvas").GetComponent<IconsCanvasManager>();
     }
 
     private void Update()
@@ -24,7 +25,7 @@ public class EntrarSair : MonoBehaviour
         if (isInside && Input.GetKeyDown(KeyCode.X))
         {
             Time.timeScale = 0;
-            IconCanvas.GetComponent<IconsCanvasManager>().AskBox.SetActive(true);
+            iconCanvasScript.AskBox.SetActive(true);
         }
     }
 
@@ -34,7 +35,7 @@ public class EntrarSair : MonoBehaviour
         {
             Time.timeScale = 1;
             jogador.transform.position = Destino.position;
-            IconCanvas.GetComponent<IconsCanvasManager>().AskBox.SetActive(false);
+            iconCanvasScript.AskBox.SetActive(false);
             if (scriptChangeCamera != null)
             {
                 scriptChangeCamera.ChangeActiveCamera();
@@ -43,13 +44,13 @@ public class EntrarSair : MonoBehaviour
         else
         {
             Time.timeScale = 1;
-            IconCanvas.GetComponent<IconsCanvasManager>().AskBox.SetActive(false);
+            iconCanvasScript.AskBox.SetActive(false);
         }
     }
     
     private void OnTriggerStay2D(Collider2D other)
     {
-        var iconsCanvasManager = IconCanvas.GetComponent<IconsCanvasManager>();
+        var iconsCanvasManager = iconCanvasScript;
         iconsCanvasManager.ScriptEntrarSair = GetComponent<EntrarSair>();
         iconsCanvasManager.IconIteraction.SetActive(true);
         if (other.gameObject.CompareTag("Player") && Input.GetKeyDown(KeyCode.X))
@@ -60,7 +61,7 @@ public class EntrarSair : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        IconCanvas.GetComponent<IconsCanvasManager>().IconIteraction.SetActive(false);
+        iconCanvasScript.IconIteraction.SetActive(false);
         isInside = false;
     }
 }
