@@ -13,7 +13,6 @@ namespace Player
 
         public Canvas Ui;
         private InterfaceWorldController interfaceWorldController;
-        private bool chaveSairCasa;
         
         private void Awake()
         {
@@ -37,16 +36,6 @@ namespace Player
                 Time.timeScale = 0;
                 Debug.Log("Você morreu");
             }
-        }
-
-        public void PegarChave()
-        {
-            chaveSairCasa = true;
-        }
-
-        public bool VerificaChave()
-        {
-            return chaveSairCasa;
         }
     }
 }

@@ -5,11 +5,13 @@ namespace Items
 {
     public class Chave : MonoBehaviour
     {
+        public GameObject OpenDoor;
+            
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.gameObject.CompareTag("Player"))
             {
-                GameObject.FindWithTag("Player").GetComponent<PlayerStatus>().PegarChave();
+                OpenDoor.GetComponent<EntrarSair>().GetKey();
                 Destroy(gameObject);
             }
         }

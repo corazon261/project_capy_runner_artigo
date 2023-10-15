@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Dialogues;
 using Ui;
 using UnityEngine;
 using Utils;
@@ -8,17 +9,22 @@ using Utils;
 public class EntrarSair : MonoBehaviour
 {
     public Transform Destino;
+    public bool KeyRequired;
 
     private IconsCanvasManager iconCanvasScript;
     private GameObject jogador;
     private ChangeCamera scriptChangeCamera;
     private bool isInside;
+    private bool hasKey;
+    private DialogueManager dialogueManager;
+    private bool onDialogue;
 
     private void Start()
     {
         jogador = GameObject.FindWithTag("Player");
         scriptChangeCamera = GetComponent<ChangeCamera>();
         iconCanvasScript = GameObject.FindGameObjectWithTag("IconsCanvas").GetComponent<IconsCanvasManager>();
+        dialogueManager = FindObjectOfType<DialogueManager>(true);
     }
 
     private void Update()
@@ -26,6 +32,22 @@ public class EntrarSair : MonoBehaviour
         if (isInside && Input.GetKeyDown(KeyCode.X))
         {
             Time.timeScale = 0;
+            if (KeyRequired && !hasKey && !onDialogue)
+            {
+                dialogueManager.PrepareDialogue("", "Você não tem a chave :/");
+                dialogueManager.Activate();
+                onDialogue = true;
+                return;
+            }
+            
+            if (onDialogue)
+            {
+                dialogueManager.Deactivate();
+                onDialogue = false;
+                Time.timeScale = 1;
+                return;
+            }
+            
             iconCanvasScript.AskBox.SetActive(true);
         }
     }
@@ -64,5 +86,10 @@ public class EntrarSair : MonoBehaviour
     {
         iconCanvasScript.IconIteraction.SetActive(false);
         isInside = false;
+    }
+
+    public void GetKey()
+    {
+        hasKey = true;
     }
 }
