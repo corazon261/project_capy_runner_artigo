@@ -1,5 +1,4 @@
-﻿using System;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 
 namespace Dialogues
@@ -14,7 +13,7 @@ namespace Dialogues
         
         private void SetName(string characterName)
         {
-            Name.GetComponent<TMPro.TextMeshProUGUI>().text = characterName;
+            Name.GetComponent<TextMeshProUGUI>().text = characterName;
             if (string.IsNullOrEmpty(characterName))
             {
                 nameEmpty = true;
@@ -27,7 +26,7 @@ namespace Dialogues
 
         private void SetText(string text)
         {
-            Text.GetComponent<TMPro.TextMeshProUGUI>().text = text;
+            Text.GetComponent<TextMeshProUGUI>().text = text;
         }
         
         public void PrepareDialogue(string characterName, string text)

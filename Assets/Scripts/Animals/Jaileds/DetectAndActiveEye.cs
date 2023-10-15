@@ -1,7 +1,5 @@
-using System;
 using Ui;
 using UnityEngine;
-using Utils;
 
 namespace Animals.Jaileds
 {
