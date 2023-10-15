@@ -7,19 +7,17 @@ namespace Animals.Jaileds
 {
     public class DetectAndActiveEye : MonoBehaviour
     {
-        private UIManager uiManager;
         private bool insideArea;
         private ChangeOpacity[] animals;
         
         private void Start()
         {
-            uiManager = FindObjectOfType<Canvas>().GetComponent<UIManager>();
             animals = FindObjectsOfType<ChangeOpacity>();
         }
 
         private void Update()
         {
-            if (insideArea && Input.GetButtonDown("Vertical"))
+            if (insideArea && Input.GetKeyDown(KeyCode.X))
             {
                 foreach (var animal in animals)
                 {
@@ -39,7 +37,7 @@ namespace Animals.Jaileds
         {
             if (other.gameObject.CompareTag("Player"))
             {
-                uiManager.ShowEye(true);
+                GameObject.FindGameObjectWithTag("IconsCanvas").GetComponent<IconsCanvasManager>().IconOlho.SetActive(true);
                 insideArea = true;
             }
         }
@@ -48,7 +46,7 @@ namespace Animals.Jaileds
         {
             if (other.gameObject.CompareTag("Player"))
             {
-                uiManager.ShowEye(false);
+                GameObject.FindGameObjectWithTag("IconsCanvas").GetComponent<IconsCanvasManager>().IconOlho.SetActive(true);
                 insideArea = false;
                 foreach (var animal in animals) {
                     animal.MudarNormal();

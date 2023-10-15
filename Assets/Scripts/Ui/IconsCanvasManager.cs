@@ -5,13 +5,16 @@ using UnityEngine;
 
 public class IconsCanvasManager : MonoBehaviour
 {
+    public GameObject IconOlho;
     public GameObject IconIteraction;
     public GameObject IconChat;
     public GameObject AskBox;
     public EntrarSair ScriptEntrarSair;
 
+
     private void Start()
     {
+        IconOlho.SetActive(false);
         IconIteraction.SetActive(false);
         IconChat.SetActive(false);
         AskBox.SetActive(false);
@@ -21,5 +24,4 @@ public class IconsCanvasManager : MonoBehaviour
     {
         ScriptEntrarSair.Confirm(yes);
     }
-    
 }
