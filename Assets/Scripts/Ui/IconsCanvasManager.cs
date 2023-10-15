@@ -1,27 +1,27 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class IconsCanvasManager : MonoBehaviour
+namespace Ui
 {
-    public GameObject IconOlho;
-    public GameObject IconIteraction;
-    public GameObject IconChat;
-    public GameObject AskBox;
-    public EntrarSair ScriptEntrarSair;
-
-
-    private void Start()
+    public class IconsCanvasManager : MonoBehaviour
     {
-        IconOlho.SetActive(false);
-        IconIteraction.SetActive(false);
-        IconChat.SetActive(false);
-        AskBox.SetActive(false);
-    }
+        public GameObject IconOlho;
+        public GameObject IconIteraction;
+        public GameObject IconChat;
+        public GameObject AskBox;
+        public EntrarSair ScriptEntrarSair;
 
-    public void Awnser(bool yes)
-    {
-        ScriptEntrarSair.Confirm(yes);
+
+        private void Start()
+        {
+            IconOlho.SetActive(false);
+            IconIteraction.SetActive(false);
+            IconChat.SetActive(false);
+            AskBox.SetActive(false);
+        }
+
+        public void Awnser(bool yes)
+        {
+            ScriptEntrarSair.Confirm(yes);
+        }
     }
 }

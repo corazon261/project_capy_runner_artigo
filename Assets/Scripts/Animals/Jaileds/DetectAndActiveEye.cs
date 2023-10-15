@@ -9,26 +9,33 @@ namespace Animals.Jaileds
     {
         private bool insideArea;
         private ChangeOpacity[] animals;
+        private IconsCanvasManager iconsCanvasManager;
         
         private void Start()
         {
             animals = FindObjectsOfType<ChangeOpacity>();
+            iconsCanvasManager = GameObject.FindGameObjectWithTag("IconsCanvas").GetComponent<IconsCanvasManager>();
         }
 
         private void Update()
         {
             if (insideArea && Input.GetKeyDown(KeyCode.X))
             {
-                foreach (var animal in animals)
+                ChangeAnimalsSprite();
+            }
+        }
+        
+        private void ChangeAnimalsSprite(bool transparent = false)
+        {
+            foreach (var animal in animals)
+            {
+                if (animal.GetIsTransparent() || transparent)
                 {
-                    if (animal.GetIsTransparent())
-                    {
-                        animal.MudarNormal();
-                    }
-                    else
-                    {
-                        animal.MudarTransparente();
-                    }
+                    animal.MudarNormal();
+                }
+                else
+                {
+                    animal.MudarTransparente();
                 }
             }
         }
@@ -37,7 +44,7 @@ namespace Animals.Jaileds
         {
             if (other.gameObject.CompareTag("Player"))
             {
-                GameObject.FindGameObjectWithTag("IconsCanvas").GetComponent<IconsCanvasManager>().IconOlho.SetActive(true);
+                iconsCanvasManager.IconOlho.SetActive(true);
                 insideArea = true;
             }
         }
@@ -46,11 +53,9 @@ namespace Animals.Jaileds
         {
             if (other.gameObject.CompareTag("Player"))
             {
-                GameObject.FindGameObjectWithTag("IconsCanvas").GetComponent<IconsCanvasManager>().IconOlho.SetActive(true);
+                iconsCanvasManager.IconOlho.SetActive(false);
                 insideArea = false;
-                foreach (var animal in animals) {
-                    animal.MudarNormal();
-                }
+                ChangeAnimalsSprite(true);
             }
         }   
     }
