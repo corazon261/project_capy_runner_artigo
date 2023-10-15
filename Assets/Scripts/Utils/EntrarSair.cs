@@ -53,7 +53,7 @@ public class EntrarSair : MonoBehaviour
         var iconsCanvasManager = iconCanvasScript;
         iconsCanvasManager.ScriptEntrarSair = GetComponent<EntrarSair>();
         iconsCanvasManager.IconIteraction.SetActive(true);
-        if (other.gameObject.CompareTag("Player") && Input.GetKeyDown(KeyCode.X))
+        if (other.gameObject.CompareTag("Player"))
         {
             isInside = true;
         }
