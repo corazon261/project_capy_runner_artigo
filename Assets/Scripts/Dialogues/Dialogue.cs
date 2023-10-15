@@ -1,3 +1,4 @@
+using System;
 using Ui;
 using UnityEngine;
 
@@ -5,29 +6,48 @@ namespace Dialogues
 {
     public class Dialogue : MonoBehaviour
     {
-        public string Name;
-        public string Text;
+        [Serializable]
+        public class DialogueContent
+        {
+            public string Name;
+            public string Text;
+        }
+        
+        public DialogueContent[] DialogueContents;
         private DialogueManager dialogueManager;
         private bool isTriggered;
         private bool onDialogue;
+        private IconsCanvasManager iconsCanvasManager;
+        private int currentDialogueIndex;
         
         private void Start()
         {
             dialogueManager = FindObjectOfType<DialogueManager>(true);
+            iconsCanvasManager = GameObject.FindWithTag("IconsCanvas").GetComponent<IconsCanvasManager>();
         }
 
         private void Update()
         {
             if (onDialogue && Input.GetKeyDown(KeyCode.X))
             {
-                dialogueManager.Deactivate();
-                onDialogue = false;
-                Time.timeScale = 1;
+                if (currentDialogueIndex >= DialogueContents.Length)
+                {
+                    dialogueManager.Deactivate();
+                    onDialogue = false;
+                    currentDialogueIndex = 0;
+                    Time.timeScale = 1;
+                    return;
+                }
+                
+                dialogueManager.PrepareDialogue(DialogueContents[currentDialogueIndex].Name, DialogueContents[currentDialogueIndex].Text);
+                dialogueManager.Activate();
+                currentDialogueIndex++;
             } else if (isTriggered && Input.GetKeyDown(KeyCode.X) && !onDialogue)
             {
-                dialogueManager.PrepareDialogue(Name, Text);
+                dialogueManager.PrepareDialogue(DialogueContents[currentDialogueIndex].Name, DialogueContents[currentDialogueIndex].Text);
                 dialogueManager.Activate();
                 onDialogue = true;
+                currentDialogueIndex++;
                 Time.timeScale = 0;
             }
         }
@@ -37,7 +57,7 @@ namespace Dialogues
             if (other.CompareTag("Player"))
             {
                 isTriggered = true;
-                GameObject.FindGameObjectWithTag("IconsCanvas").GetComponent<IconsCanvasManager>().IconChat.SetActive(true);
+                iconsCanvasManager.IconChat.SetActive(true);
             }
         }
         
@@ -46,7 +66,7 @@ namespace Dialogues
             if (other.CompareTag("Player"))
             {
                 isTriggered = false;
-                GameObject.FindGameObjectWithTag("IconsCanvas").GetComponent<IconsCanvasManager>().IconChat.SetActive(false);
+                iconsCanvasManager.IconChat.SetActive(false);
             }
         }
     }
