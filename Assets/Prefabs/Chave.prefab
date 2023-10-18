@@ -125,6 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8a1947505992474c838361cf694f650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OpenDoor: {fileID: 0}
 --- !u!95 &64374653
 Animator:
   serializedVersion: 5
