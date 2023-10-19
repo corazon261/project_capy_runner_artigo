@@ -1,0 +1,834 @@
+fileFormatVersion: 2
+guid: 5824a7ac6d5733a4dbbd0e525747f2bd
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: zorrilho_Frame_0
+    originalName: 
+    pivot: {x: 0.48387095, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 4
+      width: 31
+      height: 9
+    spriteID: b46e04414cbfb5b47b7237b0f9b3d233
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 4}
+  - name: zorrilho_Frame_1
+    originalName: 
+    pivot: {x: 0.48387095, y: -1.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 21
+      width: 31
+      height: 8
+    spriteID: a8e91b11ab094cc4ea9e60ffc4e1219e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 21}
+  - name: zorrilho_Frame_2
+    originalName: 
+    pivot: {x: 0.48387095, y: -1.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 75
+      y: 37
+      width: 31
+      height: 8
+    spriteID: 43df801298a7fa246b07cfb4008387c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 75, y: 37}
+  - name: zorrilho_Frame_3
+    originalName: 
+    pivot: {x: 0.4666667, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 44
+      width: 30
+      height: 9
+    spriteID: 7098214be9015a64aac909f618ea0c64
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 44}
+  - name: zorrilho_Frame_4
+    originalName: 
+    pivot: {x: 0.4666667, y: -1.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 26
+      width: 30
+      height: 10
+    spriteID: fdac34ce3b7e0fb4c85d3d833612ed2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 26}
+  - name: zorrilho_Frame_5
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.7857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 4
+      width: 30
+      height: 14
+    spriteID: 71e8d11a6f4531e428c7ebdf6bec34dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 4}
+  - name: zorrilho_Frame_6
+    originalName: 
+    pivot: {x: 0.35999998, y: -0.6111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 25
+      height: 18
+    spriteID: e047655c564c6204d85e9371b5f603b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: zorrilho_Frame_7
+    originalName: 
+    pivot: {x: 0.30434784, y: -0.6111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 30
+      width: 23
+      height: 18
+    spriteID: 349b33954f9a76246bb5aa13d6283766
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 30}
+  - name: zorrilho_Frame_8
+    originalName: 
+    pivot: {x: 0.3181818, y: -0.6111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 56
+      width: 22
+      height: 18
+    spriteID: 7733fff889eb73e469781233516850d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 56}
+  - name: zorrilho_Frame_9
+    originalName: 
+    pivot: {x: 0.3181818, y: -0.6111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 82
+      width: 22
+      height: 18
+    spriteID: caf0f15c9bd9f7d478dcae1732d73606
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 82}
+  - name: zorrilho_Frame_10
+    originalName: 
+    pivot: {x: 0.3181818, y: -0.6111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 108
+      width: 22
+      height: 18
+    spriteID: 294b785d5fbf47b41bf35ebe1326b73e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 108}
+  - name: zorrilho_Frame_11
+    originalName: 
+    pivot: {x: 0.3181818, y: -0.6111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 134
+      width: 22
+      height: 18
+    spriteID: 42fe36809d249794580c233eb643345e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 134}
+  - name: zorrilho_Frame_12
+    originalName: 
+    pivot: {x: 0.3181818, y: -0.6111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 160
+      width: 22
+      height: 18
+    spriteID: aa79e0360d0abef45bd7fa1dbcc1f520
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 160}
+  - name: zorrilho_Frame_13
+    originalName: 
+    pivot: {x: 0.3181818, y: -0.6111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 186
+      width: 22
+      height: 18
+    spriteID: 2535db508a0e5fd48a79e87f2f07368a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 186}
+  - name: zorrilho_Frame_14
+    originalName: 
+    pivot: {x: 0.3181818, y: -0.6111111}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 212
+      width: 22
+      height: 18
+    spriteID: 8bcdeae6319d01d4abae295abf5f0081
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 212}
+  - name: zorrilho_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -1.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 197
+      width: 30
+      height: 8
+    spriteID: c5d40cb09dcebf34e898b8ce77e75826
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 197}
+  - name: zorrilho_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 61
+      width: 30
+      height: 9
+    spriteID: e568e5db5b7711845971ace0306279ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 61}
+  - name: zorrilho_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 78
+      width: 30
+      height: 9
+    spriteID: 5ec91371e96dc964bb5ca57d438f8fac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 78}
+  - name: zorrilho_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -1.375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 213
+      width: 30
+      height: 8
+    spriteID: fdfe506089530b548b0a431b7acd5619
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 213}
+  - name: zorrilho_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 95
+      width: 30
+      height: 9
+    spriteID: 6d9e36c38fdf19247a4ecadf45e53c6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 95}
+  - name: zorrilho_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 112
+      width: 30
+      height: 9
+    spriteID: e0d4233cdbec0e947967fa59e8d014df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 112}
+  - name: zorrilho_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 129
+      width: 30
+      height: 9
+    spriteID: 9db3de0c85a63454e86ad7e2684aeac9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 129}
+  - name: zorrilho_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 146
+      width: 30
+      height: 9
+    spriteID: 1646a7643cedfdf418841f1c9e22adec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 146}
+  - name: zorrilho_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 163
+      width: 30
+      height: 9
+    spriteID: 94fd8c4259377c640a3a260e69432cf9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 163}
+  - name: zorrilho_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: -1.2222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 37
+      y: 180
+      width: 30
+      height: 9
+    spriteID: ae2f6a37f1932a848b5a3b0ef696c195
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 37, y: 180}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 760046551
+    name: zorrilho
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: zorrilho_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 1
+        y: 11
+        width: 31
+        height: 9
+      spriteId: b46e04414cbfb5b47b7237b0f9b3d233
+    - name: zorrilho_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 1
+        y: 11
+        width: 31
+        height: 8
+      spriteId: a8e91b11ab094cc4ea9e60ffc4e1219e
+    - name: zorrilho_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 1
+        y: 11
+        width: 31
+        height: 8
+      spriteId: 43df801298a7fa246b07cfb4008387c2
+    - name: zorrilho_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 2
+        y: 11
+        width: 30
+        height: 9
+      spriteId: 7098214be9015a64aac909f618ea0c64
+    - name: zorrilho_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 2
+        y: 11
+        width: 30
+        height: 10
+      spriteId: fdac34ce3b7e0fb4c85d3d833612ed2b
+    - name: zorrilho_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 2
+        y: 11
+        width: 30
+        height: 14
+      spriteId: 71e8d11a6f4531e428c7ebdf6bec34dd
+    - name: zorrilho_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 7
+        y: 11
+        width: 25
+        height: 18
+      spriteId: e047655c564c6204d85e9371b5f603b2
+    - name: zorrilho_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 9
+        y: 11
+        width: 23
+        height: 18
+      spriteId: 349b33954f9a76246bb5aa13d6283766
+    - name: zorrilho_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 9
+        y: 11
+        width: 22
+        height: 18
+      spriteId: 7733fff889eb73e469781233516850d5
+    - name: zorrilho_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 9
+        y: 11
+        width: 22
+        height: 18
+      spriteId: caf0f15c9bd9f7d478dcae1732d73606
+    - name: zorrilho_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 9
+        y: 11
+        width: 22
+        height: 18
+      spriteId: 294b785d5fbf47b41bf35ebe1326b73e
+    - name: zorrilho_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 9
+        y: 11
+        width: 22
+        height: 18
+      spriteId: 42fe36809d249794580c233eb643345e
+    - name: zorrilho_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 9
+        y: 11
+        width: 22
+        height: 18
+      spriteId: aa79e0360d0abef45bd7fa1dbcc1f520
+    - name: zorrilho_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 9
+        y: 11
+        width: 22
+        height: 18
+      spriteId: 2535db508a0e5fd48a79e87f2f07368a
+    - name: zorrilho_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 9
+        y: 11
+        width: 22
+        height: 18
+      spriteId: 8bcdeae6319d01d4abae295abf5f0081
+    - name: zorrilho_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 1
+        y: 11
+        width: 30
+        height: 8
+      spriteId: c5d40cb09dcebf34e898b8ce77e75826
+    - name: zorrilho_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 1
+        y: 11
+        width: 30
+        height: 9
+      spriteId: e568e5db5b7711845971ace0306279ab
+    - name: zorrilho_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 1
+        y: 11
+        width: 30
+        height: 9
+      spriteId: 5ec91371e96dc964bb5ca57d438f8fac
+    - name: zorrilho_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 1
+        y: 11
+        width: 30
+        height: 8
+      spriteId: fdfe506089530b548b0a431b7acd5619
+    - name: zorrilho_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 1
+        y: 11
+        width: 30
+        height: 9
+      spriteId: 6d9e36c38fdf19247a4ecadf45e53c6c
+    - name: zorrilho_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 1
+        y: 11
+        width: 30
+        height: 9
+      spriteId: e0d4233cdbec0e947967fa59e8d014df
+    - name: zorrilho_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 1
+        y: 11
+        width: 30
+        height: 9
+      spriteId: 9db3de0c85a63454e86ad7e2684aeac9
+    - name: zorrilho_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 1
+        y: 11
+        width: 30
+        height: 9
+      spriteId: 1646a7643cedfdf418841f1c9e22adec
+    - name: zorrilho_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 1
+        y: 11
+        width: 30
+        height: 9
+      spriteId: 94fd8c4259377c640a3a260e69432cf9
+    - name: zorrilho_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 1
+        y: 11
+        width: 30
+        height: 9
+      spriteId: ae2f6a37f1932a848b5a3b0ef696c195
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}

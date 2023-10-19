@@ -1,0 +1,1259 @@
+fileFormatVersion: 2
+guid: 16711926a0c3ce449810ea0ec6c4518c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638333401410320397
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: tatuzinho_Frame_0
+    originalName: 
+    pivot: {x: 0.6956522, y: -0.02020202}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 739
+      width: 69
+      height: 99
+    spriteID: 1f5ec984ff0bbb9438127dbfc53d0b26
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 739}
+  - name: tatuzinho_Frame_1
+    originalName: 
+    pivot: {x: 0.6666667, y: -0.021276595}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 616
+      width: 69
+      height: 94
+    spriteID: 90bbf7a030bac4243b634a9383a8ae41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 616}
+  - name: tatuzinho_Frame_2
+    originalName: 
+    pivot: {x: 0.64285713, y: -0.025}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 928
+      width: 70
+      height: 80
+    spriteID: cbcbb94d46edb584d80f002a55ba8ed6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 928}
+  - name: tatuzinho_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 290
+      y: 635
+      width: 64
+      height: 49
+    spriteID: cf88777f29b473448bbb17b215349ce5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 290, y: 635}
+  - name: tatuzinho_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 290
+      y: 570
+      width: 64
+      height: 57
+    spriteID: 7d38f81d9557ec941a3ff09dc8793830
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 290, y: 570}
+  - name: tatuzinho_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 953
+      width: 64
+      height: 67
+    spriteID: 203fcfb88109eab48a7e61d2a3ba26bf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 953}
+  - name: tatuzinho_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 290
+      y: 428
+      width: 64
+      height: 63
+    spriteID: b3f5930d9b2fede4e82f35136d0e688d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 290, y: 428}
+  - name: tatuzinho_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 290
+      y: 499
+      width: 64
+      height: 63
+    spriteID: 496167bc91b2fef4bb8770aa9ed0dd42
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 290, y: 499}
+  - name: tatuzinho_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 936
+      width: 64
+      height: 64
+    spriteID: 1a9338d12bbaec042a2fa4e9d7932cee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 936}
+  - name: tatuzinho_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 290
+      y: 212
+      width: 64
+      height: 64
+    spriteID: 557acf55102267c48a28563c8e989074
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 290, y: 212}
+  - name: tatuzinho_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 290
+      y: 284
+      width: 64
+      height: 64
+    spriteID: 9419bb85f9a012342b857ab831e8eabb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 290, y: 284}
+  - name: tatuzinho_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 290
+      y: 356
+      width: 64
+      height: 64
+    spriteID: 7250806eb8a3d4c49a9a1203453ee40c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 290, y: 356}
+  - name: tatuzinho_Frame_12
+    originalName: 
+    pivot: {x: 0.74418604, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 837
+      width: 86
+      height: 91
+    spriteID: 62f89aed6b593684ba6816ca692279ae
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 837}
+  - name: tatuzinho_Frame_13
+    originalName: 
+    pivot: {x: 0.72727275, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 534
+      width: 88
+      height: 90
+    spriteID: 39acaa3a02ebf104cbe7ea9dda05b669
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 534}
+  - name: tatuzinho_Frame_14
+    originalName: 
+    pivot: {x: 0.7066667, y: -0.022988506}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 521
+      width: 75
+      height: 87
+    spriteID: c259231173c1a3b47a65bf973bcf4836
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 521}
+  - name: tatuzinho_Frame_15
+    originalName: 
+    pivot: {x: 0.68354434, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 108
+      width: 79
+      height: 94
+    spriteID: 6567344332390e942b7650034fe78160
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 108}
+  - name: tatuzinho_Frame_16
+    originalName: 
+    pivot: {x: 0.7159091, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 331
+      width: 88
+      height: 97
+    spriteID: 9827e34df8a9ae34cac1fc29571aae83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 331}
+  - name: tatuzinho_Frame_17
+    originalName: 
+    pivot: {x: 0.67741936, y: -0.033333335}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 436
+      width: 93
+      height: 90
+    spriteID: dd08de4e4eeb4bd4c804a9a8b000f2a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 436}
+  - name: tatuzinho_Frame_18
+    originalName: 
+    pivot: {x: 0.67469877, y: -0.011235955}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 4
+      width: 83
+      height: 89
+    spriteID: e29ed0a193fdc0b44859c0f9c6dcc162
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 4}
+  - name: tatuzinho_Frame_19
+    originalName: 
+    pivot: {x: 0.69411767, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 632
+      width: 85
+      height: 93
+    spriteID: c4537e208c6a33b40b047743dd28f2ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 632}
+  - name: tatuzinho_Frame_20
+    originalName: 
+    pivot: {x: 0.6956522, y: -0.02020202}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 846
+      width: 69
+      height: 99
+    spriteID: 5a5e4dc517aea3443bc8e237237f2b0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 846}
+  - name: tatuzinho_Frame_21
+    originalName: 
+    pivot: {x: 0.6956522, y: -0.02}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 525
+      width: 69
+      height: 100
+    spriteID: 0b03a72ca5559a14f8ecefe15bc047ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 525}
+  - name: tatuzinho_Frame_22
+    originalName: 
+    pivot: {x: 0.6956522, y: -0.021052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 315
+      width: 69
+      height: 95
+    spriteID: d729471e3f881874bb6df54061ac4120
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 315}
+  - name: tatuzinho_Frame_23
+    originalName: 
+    pivot: {x: 0.6956522, y: -0.021052632}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 418
+      width: 69
+      height: 95
+    spriteID: d7683bb3974767d4885835d5f7ad1ae9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 418}
+  - name: tatuzinho_Frame_24
+    originalName: 
+    pivot: {x: 0.6956522, y: -0.02020202}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 101
+      width: 69
+      height: 99
+    spriteID: bf2e0162b1866d14694be7f176d0a272
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 101}
+  - name: tatuzinho_Frame_25
+    originalName: 
+    pivot: {x: 0.7123288, y: -0.020833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 314
+      width: 73
+      height: 96
+    spriteID: 5d95e87f801e5684084f35275ded80be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 314}
+  - name: tatuzinho_Frame_26
+    originalName: 
+    pivot: {x: 0.72727275, y: -0.020833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 210
+      width: 77
+      height: 96
+    spriteID: a5a63f1942058c34986a5ccd20f6a0f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 210}
+  - name: tatuzinho_Frame_27
+    originalName: 
+    pivot: {x: 0.73417723, y: -0.020833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 4
+      width: 79
+      height: 96
+    spriteID: e989064a9d9340f4297df9bff48d02ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 4}
+  - name: tatuzinho_Frame_28
+    originalName: 
+    pivot: {x: 0.54285717, y: -0.020408163}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 633
+      width: 70
+      height: 98
+    spriteID: 65161b6bc8b28784c9bf1e5a9e174aeb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 633}
+  - name: tatuzinho_Frame_29
+    originalName: 
+    pivot: {x: 0.44, y: -0.01980198}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 100
+      height: 101
+    spriteID: a21594564ff74f54b907a613758498eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: tatuzinho_Frame_30
+    originalName: 
+    pivot: {x: 0.42, y: -0.01980198}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 113
+      width: 100
+      height: 101
+    spriteID: 4db152c385a37ae4389b66bbda9baeef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 113}
+  - name: tatuzinho_Frame_31
+    originalName: 
+    pivot: {x: 0.44, y: -0.01980198}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 222
+      width: 100
+      height: 101
+    spriteID: 857f075d004459d4a95181abf4524489
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 222}
+  - name: tatuzinho_Frame_32
+    originalName: 
+    pivot: {x: 0.6956522, y: -0.02020202}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 208
+      width: 69
+      height: 99
+    spriteID: d84a06d118d38644b80cee1b0c39650d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 208}
+  - name: tatuzinho_Frame_33
+    originalName: 
+    pivot: {x: 0.7, y: -0.02020202}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 418
+      width: 70
+      height: 99
+    spriteID: 6e03dc2622565b2458f4661095ef81f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 112, y: 418}
+  - name: tatuzinho_Frame_34
+    originalName: 
+    pivot: {x: 0.6818182, y: -0.020408163}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 718
+      width: 66
+      height: 98
+    spriteID: 46e8f75b9f1b2214d9e40f6e6044324d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 718}
+  - name: tatuzinho_Frame_35
+    originalName: 
+    pivot: {x: 0.6818182, y: -0.020833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 199
+      y: 824
+      width: 66
+      height: 96
+    spriteID: 6396387e8f80f2744a9eff0691b61cc6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 199, y: 824}
+  - name: tatuzinho_Frame_36
+    originalName: 
+    pivot: {x: 0.6818182, y: -0.020833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 290
+      y: 4
+      width: 66
+      height: 96
+    spriteID: d60a3cf21e0804243b6863686567ed51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 290, y: 4}
+  - name: tatuzinho_Frame_37
+    originalName: 
+    pivot: {x: 0.7439024, y: -0.020833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 733
+      width: 82
+      height: 96
+    spriteID: b06f4a483aafca2438f75fba745d5595
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 733}
+  - name: tatuzinho_Frame_38
+    originalName: 
+    pivot: {x: 0.6818182, y: -0.020833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 290
+      y: 108
+      width: 66
+      height: 96
+    spriteID: 49126f65c94e07e4aa7208811a87529e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 290, y: 108}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1219040810
+    name: tatuzinho
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: tatuzinho_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 16
+        y: 2
+        width: 69
+        height: 99
+      spriteId: 1f5ec984ff0bbb9438127dbfc53d0b26
+    - name: tatuzinho_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 18
+        y: 2
+        width: 69
+        height: 94
+      spriteId: 90bbf7a030bac4243b634a9383a8ae41
+    - name: tatuzinho_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 19
+        y: 2
+        width: 70
+        height: 80
+      spriteId: cbcbb94d46edb584d80f002a55ba8ed6
+    - name: tatuzinho_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 32
+        y: 0
+        width: 64
+        height: 49
+      spriteId: cf88777f29b473448bbb17b215349ce5
+    - name: tatuzinho_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 32
+        y: 0
+        width: 64
+        height: 57
+      spriteId: 7d38f81d9557ec941a3ff09dc8793830
+    - name: tatuzinho_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 32
+        y: 0
+        width: 64
+        height: 67
+      spriteId: 203fcfb88109eab48a7e61d2a3ba26bf
+    - name: tatuzinho_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 32
+        y: 0
+        width: 64
+        height: 63
+      spriteId: b3f5930d9b2fede4e82f35136d0e688d
+    - name: tatuzinho_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 32
+        y: 0
+        width: 64
+        height: 63
+      spriteId: 496167bc91b2fef4bb8770aa9ed0dd42
+    - name: tatuzinho_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 32
+        y: 0
+        width: 64
+        height: 64
+      spriteId: 1a9338d12bbaec042a2fa4e9d7932cee
+    - name: tatuzinho_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 32
+        y: 0
+        width: 64
+        height: 64
+      spriteId: 557acf55102267c48a28563c8e989074
+    - name: tatuzinho_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 32
+        y: 0
+        width: 64
+        height: 64
+      spriteId: 9419bb85f9a012342b857ab831e8eabb
+    - name: tatuzinho_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 32
+        y: 0
+        width: 64
+        height: 64
+      spriteId: 7250806eb8a3d4c49a9a1203453ee40c
+    - name: tatuzinho_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 0
+        width: 86
+        height: 91
+      spriteId: 62f89aed6b593684ba6816ca692279ae
+    - name: tatuzinho_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 88
+        height: 90
+      spriteId: 39acaa3a02ebf104cbe7ea9dda05b669
+    - name: tatuzinho_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 11
+        y: 2
+        width: 75
+        height: 87
+      spriteId: c259231173c1a3b47a65bf973bcf4836
+    - name: tatuzinho_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 10
+        y: 0
+        width: 79
+        height: 94
+      spriteId: 6567344332390e942b7650034fe78160
+    - name: tatuzinho_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 1
+        y: 0
+        width: 88
+        height: 97
+      spriteId: 9827e34df8a9ae34cac1fc29571aae83
+    - name: tatuzinho_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 1
+        y: 3
+        width: 93
+        height: 90
+      spriteId: dd08de4e4eeb4bd4c804a9a8b000f2a8
+    - name: tatuzinho_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 8
+        y: 1
+        width: 83
+        height: 89
+      spriteId: e29ed0a193fdc0b44859c0f9c6dcc162
+    - name: tatuzinho_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 5
+        y: 0
+        width: 85
+        height: 93
+      spriteId: c4537e208c6a33b40b047743dd28f2ef
+    - name: tatuzinho_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 16
+        y: 2
+        width: 69
+        height: 99
+      spriteId: 5a5e4dc517aea3443bc8e237237f2b0d
+    - name: tatuzinho_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 16
+        y: 2
+        width: 69
+        height: 100
+      spriteId: 0b03a72ca5559a14f8ecefe15bc047ea
+    - name: tatuzinho_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 16
+        y: 2
+        width: 69
+        height: 95
+      spriteId: d729471e3f881874bb6df54061ac4120
+    - name: tatuzinho_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 16
+        y: 2
+        width: 69
+        height: 95
+      spriteId: d7683bb3974767d4885835d5f7ad1ae9
+    - name: tatuzinho_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 16
+        y: 2
+        width: 69
+        height: 99
+      spriteId: bf2e0162b1866d14694be7f176d0a272
+    - name: tatuzinho_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 12
+        y: 2
+        width: 73
+        height: 96
+      spriteId: 5d95e87f801e5684084f35275ded80be
+    - name: tatuzinho_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 8
+        y: 2
+        width: 77
+        height: 96
+      spriteId: a5a63f1942058c34986a5ccd20f6a0f7
+    - name: tatuzinho_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 6
+        y: 2
+        width: 79
+        height: 96
+      spriteId: e989064a9d9340f4297df9bff48d02ec
+    - name: tatuzinho_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 26
+        y: 2
+        width: 70
+        height: 98
+      spriteId: 65161b6bc8b28784c9bf1e5a9e174aeb
+    - name: tatuzinho_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 20
+        y: 2
+        width: 100
+        height: 101
+      spriteId: a21594564ff74f54b907a613758498eb
+    - name: tatuzinho_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 22
+        y: 2
+        width: 100
+        height: 101
+      spriteId: 4db152c385a37ae4389b66bbda9baeef
+    - name: tatuzinho_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 20
+        y: 2
+        width: 100
+        height: 101
+      spriteId: 857f075d004459d4a95181abf4524489
+    - name: tatuzinho_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 16
+        y: 2
+        width: 69
+        height: 99
+      spriteId: d84a06d118d38644b80cee1b0c39650d
+    - name: tatuzinho_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 15
+        y: 2
+        width: 70
+        height: 99
+      spriteId: 6e03dc2622565b2458f4661095ef81f9
+    - name: tatuzinho_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 19
+        y: 2
+        width: 66
+        height: 98
+      spriteId: 46e8f75b9f1b2214d9e40f6e6044324d
+    - name: tatuzinho_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 19
+        y: 2
+        width: 66
+        height: 96
+      spriteId: 6396387e8f80f2744a9eff0691b61cc6
+    - name: tatuzinho_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 19
+        y: 2
+        width: 66
+        height: 96
+      spriteId: d60a3cf21e0804243b6863686567ed51
+    - name: tatuzinho_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 3
+        y: 2
+        width: 82
+        height: 96
+      spriteId: b06f4a483aafca2438f75fba745d5595
+    - name: tatuzinho_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 19
+        y: 2
+        width: 66
+        height: 96
+      spriteId: 49126f65c94e07e4aa7208811a87529e
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}
