@@ -5,6 +5,7 @@ namespace Utils
 {
     public class ChangeCamera : MonoBehaviour
     {
+        public bool ChangeOnCollide;
         public Camera ToCamera;
         private CameraHandler cameraHandler;
         
@@ -17,6 +18,14 @@ namespace Utils
         {
             cameraHandler.DisableAllCameras();
             ToCamera.enabled = true;
+        }
+        
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.CompareTag("Player") && ChangeOnCollide)
+            {
+                ChangeActiveCamera();
+            }
         }
     }
 }
