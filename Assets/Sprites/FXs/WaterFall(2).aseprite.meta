@@ -127,8 +127,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 48
-      height: 88
-    spriteID: 5f6ad1bf60f952d4eac0ed32cc536671
+      height: 61
+    spriteID: bf5c85b79e3483b40b1cc338b85f29fd
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -145,10 +145,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 100
+      y: 73
       width: 48
-      height: 88
-    spriteID: b47b05cda08bd9b4b8369e26c5ada9f1
+      height: 61
+    spriteID: 128c3eb8563a6ad47b01241c0c261fad
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -156,7 +156,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 100}
+    uvTransform: {x: 4, y: 73}
   - name: WaterFall(2)_Frame_2
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -164,11 +164,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 60
-      y: 4
+      x: 4
+      y: 142
       width: 48
-      height: 88
-    spriteID: 32312cb8e5d3e984fa703d616fc05faa
+      height: 61
+    spriteID: 74a1d73e8f16b19439054659804a49cc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -176,7 +176,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 60, y: 4}
+    uvTransform: {x: 4, y: 142}
   - name: WaterFall(2)_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -185,10 +185,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 60
-      y: 100
+      y: 4
       width: 48
-      height: 88
-    spriteID: 899b0878caac2914981e2cec34798191
+      height: 61
+    spriteID: 2dcd5ecf77eb5a04fb1e489c4379bff2
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -196,7 +196,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 60, y: 100}
+    uvTransform: {x: 60, y: 4}
   - name: WaterFall(2)_Frame_4
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -204,11 +204,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 116
-      y: 4
+      x: 60
+      y: 73
       width: 48
-      height: 88
-    spriteID: a49927c8f88f0d74894164fc18c0fcc2
+      height: 61
+    spriteID: b1ce8217a0200f24b97f81780ec61a35
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -216,7 +216,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 116, y: 4}
+    uvTransform: {x: 60, y: 73}
   - name: WaterFall(2)_Frame_5
     originalName: 
     pivot: {x: 0.5, y: 0}
@@ -224,11 +224,11 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 116
-      y: 100
+      x: 60
+      y: 142
       width: 48
-      height: 88
-    spriteID: 6c2fc38858f28444c8ad957aed45dcb1
+      height: 61
+    spriteID: 8d634b524851d6241aa771025bc05726
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -236,7 +236,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 116, y: 100}
+    uvTransform: {x: 60, y: 142}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -252,48 +252,48 @@ ScriptedImporter:
         x: 0
         y: 0
         width: 48
-        height: 88
-      spriteId: 5f6ad1bf60f952d4eac0ed32cc536671
+        height: 61
+      spriteId: bf5c85b79e3483b40b1cc338b85f29fd
     - name: WaterFall(2)_Frame_1
       frameIndex: 1
       cellRect:
         x: 0
         y: 0
         width: 48
-        height: 88
-      spriteId: b47b05cda08bd9b4b8369e26c5ada9f1
+        height: 61
+      spriteId: 128c3eb8563a6ad47b01241c0c261fad
     - name: WaterFall(2)_Frame_2
       frameIndex: 2
       cellRect:
         x: 0
         y: 0
         width: 48
-        height: 88
-      spriteId: 32312cb8e5d3e984fa703d616fc05faa
+        height: 61
+      spriteId: 74a1d73e8f16b19439054659804a49cc
     - name: WaterFall(2)_Frame_3
       frameIndex: 3
       cellRect:
         x: 0
         y: 0
         width: 48
-        height: 88
-      spriteId: 899b0878caac2914981e2cec34798191
+        height: 61
+      spriteId: 2dcd5ecf77eb5a04fb1e489c4379bff2
     - name: WaterFall(2)_Frame_4
       frameIndex: 4
       cellRect:
         x: 0
         y: 0
         width: 48
-        height: 88
-      spriteId: a49927c8f88f0d74894164fc18c0fcc2
+        height: 61
+      spriteId: b1ce8217a0200f24b97f81780ec61a35
     - name: WaterFall(2)_Frame_5
       frameIndex: 5
       cellRect:
         x: 0
         y: 0
         width: 48
-        height: 88
-      spriteId: 6c2fc38858f28444c8ad957aed45dcb1
+        height: 61
+      spriteId: 8d634b524851d6241aa771025bc05726
     linkedCells: []
     parentIndex: -1
   platformSettings: []
