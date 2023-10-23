@@ -282,7 +282,7 @@ SpriteAtlas:
   - {fileID: -3997342397036685324, guid: 62f819e8b522a8c41a01468f72b2cf61, type: 3}
   - {fileID: -7557392662493426408, guid: 62f819e8b522a8c41a01468f72b2cf61, type: 3}
   - {fileID: -2258774329965557796, guid: 62f819e8b522a8c41a01468f72b2cf61, type: 3}
-  - {fileID: 4436547350997624471, guid: ef2e3c6a83434994d93e89bbfce81cf8, type: 3}
+  - {fileID: -7694466861500680704, guid: ef2e3c6a83434994d93e89bbfce81cf8, type: 3}
   m_PackedSpriteNamesToIndex:
   - espinho_RestoTileCampo_2
   - espinho_RestoTileCampo_3
