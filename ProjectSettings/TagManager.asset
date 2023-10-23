@@ -9,6 +9,7 @@ TagManager:
   - CameraHandler
   - DialogueCanvas
   - IconsCanvas
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Ground
   - Jumpable
   - Harmable
-  - 
+  - Enemy
   - 
   - 
   - 

@@ -1,0 +1,922 @@
+fileFormatVersion: 2
+guid: 5f9538ab286e7184b8d6a052d5ba33e7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 1
+    defaultPivotAlignment: 0
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 1
+    defaultPivotAlignment: 0
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638335035101917018
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Graxaim_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 4
+      width: 73
+      height: 43
+    spriteID: cbc07888c24a33c49a3f1f9177db8b67
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 4}
+  - name: Graxaim_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 325
+      y: 4
+      width: 72
+      height: 43
+    spriteID: e91b9eb5cb7e6cd46adc0e2ab4b9497b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 325, y: 4}
+  - name: Graxaim_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 409
+      y: 108
+      width: 72
+      height: 41
+    spriteID: 167b5f31c890f064c9810a7f1082f429
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 409, y: 108}
+  - name: Graxaim_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 405
+      y: 4
+      width: 73
+      height: 42
+    spriteID: f7879e2930ae1f8478686410dcbed6eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 405, y: 4}
+  - name: Graxaim_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 58
+      width: 73
+      height: 42
+    spriteID: 71f6104dfb3ad0c49ad30ccb856cadea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 58}
+  - name: Graxaim_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 58
+      width: 73
+      height: 42
+    spriteID: ecf9f67c0f9aaf94ea63ae81ede07303
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 58}
+  - name: Graxaim_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 166
+      y: 58
+      width: 73
+      height: 42
+    spriteID: db930cdf456232e4da58504e6bf10406
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 166, y: 58}
+  - name: Graxaim_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 409
+      y: 58
+      width: 73
+      height: 41
+    spriteID: 103f88ce81fbb7d49bae2331cb5016a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 409, y: 58}
+  - name: Graxaim_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 108
+      width: 73
+      height: 41
+    spriteID: 1e1bce5b6679da04e856eaaa3ddb8d7d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 108}
+  - name: Graxaim_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 108
+      width: 73
+      height: 41
+    spriteID: 377a240e68cafd74080e73c2b0b13202
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 85, y: 108}
+  - name: Graxaim_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 247
+      y: 58
+      width: 73
+      height: 42
+    spriteID: 1cc75947db029234785975febad88d00
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 247, y: 58}
+  - name: Graxaim_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 328
+      y: 58
+      width: 73
+      height: 42
+    spriteID: 1ed78877a5f66a64fbdf98ca498a59af
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 58}
+  - name: Graxaim_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 166
+      y: 108
+      width: 73
+      height: 41
+    spriteID: 76c0b5251efa28645821fe223f6096ca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 166, y: 108}
+  - name: Graxaim_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 247
+      y: 108
+      width: 73
+      height: 41
+    spriteID: 8164efee7ec65484596a60c03bf836c4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 247, y: 108}
+  - name: Graxaim_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 328
+      y: 108
+      width: 73
+      height: 41
+    spriteID: fbc447637fb3f7d40b86c9e9b8583707
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 328, y: 108}
+  - name: Graxaim_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 4
+      width: 72
+      height: 44
+    spriteID: 19591fb3b7b1506498d0fe3dbea1bc38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 4}
+  - name: Graxaim_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 70
+      height: 46
+    spriteID: e1480bc0b09eeaf48ab2ca60ba82c784
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Graxaim_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 157
+      width: 76
+      height: 37
+    spriteID: d39e1337957dcb449a410b42a3d53437
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 157}
+  - name: Graxaim_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 157
+      width: 75
+      height: 36
+    spriteID: df4dd32ad124fd54087702ac61665484
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 157}
+  - name: Graxaim_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 171
+      y: 157
+      width: 74
+      height: 35
+    spriteID: 6c73c603689a18a4f8e4eb5fd0349636
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 171, y: 157}
+  - name: Graxaim_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 253
+      y: 157
+      width: 74
+      height: 35
+    spriteID: 121e7df0e0fbd7d45be85c1be28a33e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 253, y: 157}
+  - name: Graxaim_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 335
+      y: 157
+      width: 74
+      height: 35
+    spriteID: 949e641d4f29ad24683a31bc34121e4c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 335, y: 157}
+  - name: Graxaim_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 417
+      y: 157
+      width: 74
+      height: 35
+    spriteID: 494ffd6b4cebf2e4ba2774f78c2efc33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 417, y: 157}
+  - name: Graxaim_Frame_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 202
+      width: 74
+      height: 35
+    spriteID: 7ed2bcb19e63aa1408a042b0c41b554e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 202}
+  - name: Graxaim_Frame_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 82
+      y: 4
+      width: 74
+      height: 43
+    spriteID: d3be32acd694a804b951fd82ab42dd20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 82, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 2139007913
+    name: Graxaim
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Graxaim_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 60
+        y: 3
+        width: 73
+        height: 43
+      spriteId: cbc07888c24a33c49a3f1f9177db8b67
+    - name: Graxaim_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 60
+        y: 3
+        width: 72
+        height: 43
+      spriteId: e91b9eb5cb7e6cd46adc0e2ab4b9497b
+    - name: Graxaim_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 60
+        y: 3
+        width: 72
+        height: 41
+      spriteId: 167b5f31c890f064c9810a7f1082f429
+    - name: Graxaim_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 60
+        y: 3
+        width: 73
+        height: 42
+      spriteId: f7879e2930ae1f8478686410dcbed6eb
+    - name: Graxaim_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 60
+        y: 3
+        width: 73
+        height: 42
+      spriteId: 71f6104dfb3ad0c49ad30ccb856cadea
+    - name: Graxaim_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 60
+        y: 3
+        width: 73
+        height: 42
+      spriteId: ecf9f67c0f9aaf94ea63ae81ede07303
+    - name: Graxaim_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 60
+        y: 3
+        width: 73
+        height: 42
+      spriteId: db930cdf456232e4da58504e6bf10406
+    - name: Graxaim_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 60
+        y: 3
+        width: 73
+        height: 41
+      spriteId: 103f88ce81fbb7d49bae2331cb5016a6
+    - name: Graxaim_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 60
+        y: 3
+        width: 73
+        height: 41
+      spriteId: 1e1bce5b6679da04e856eaaa3ddb8d7d
+    - name: Graxaim_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 60
+        y: 3
+        width: 73
+        height: 41
+      spriteId: 377a240e68cafd74080e73c2b0b13202
+    - name: Graxaim_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 60
+        y: 3
+        width: 73
+        height: 42
+      spriteId: 1cc75947db029234785975febad88d00
+    - name: Graxaim_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 60
+        y: 3
+        width: 73
+        height: 42
+      spriteId: 1ed78877a5f66a64fbdf98ca498a59af
+    - name: Graxaim_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 60
+        y: 3
+        width: 73
+        height: 41
+      spriteId: 76c0b5251efa28645821fe223f6096ca
+    - name: Graxaim_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 60
+        y: 3
+        width: 73
+        height: 41
+      spriteId: 8164efee7ec65484596a60c03bf836c4
+    - name: Graxaim_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 60
+        y: 3
+        width: 73
+        height: 41
+      spriteId: fbc447637fb3f7d40b86c9e9b8583707
+    - name: Graxaim_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 61
+        y: 3
+        width: 72
+        height: 44
+      spriteId: 19591fb3b7b1506498d0fe3dbea1bc38
+    - name: Graxaim_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 63
+        y: 3
+        width: 70
+        height: 46
+      spriteId: e1480bc0b09eeaf48ab2ca60ba82c784
+    - name: Graxaim_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 56
+        y: 3
+        width: 76
+        height: 37
+      spriteId: d39e1337957dcb449a410b42a3d53437
+    - name: Graxaim_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 53
+        y: 3
+        width: 75
+        height: 36
+      spriteId: df4dd32ad124fd54087702ac61665484
+    - name: Graxaim_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 53
+        y: 3
+        width: 74
+        height: 35
+      spriteId: 6c73c603689a18a4f8e4eb5fd0349636
+    - name: Graxaim_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 53
+        y: 3
+        width: 74
+        height: 35
+      spriteId: 121e7df0e0fbd7d45be85c1be28a33e4
+    - name: Graxaim_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 53
+        y: 3
+        width: 74
+        height: 35
+      spriteId: 949e641d4f29ad24683a31bc34121e4c
+    - name: Graxaim_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 53
+        y: 3
+        width: 74
+        height: 35
+      spriteId: 494ffd6b4cebf2e4ba2774f78c2efc33
+    - name: Graxaim_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 53
+        y: 3
+        width: 74
+        height: 35
+      spriteId: 7ed2bcb19e63aa1408a042b0c41b554e
+    - name: Graxaim_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 59
+        y: 3
+        width: 74
+        height: 43
+      spriteId: d3be32acd694a804b951fd82ab42dd20
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: iPhone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Windows Store Apps
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: tvOS
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 151, y: 67}
