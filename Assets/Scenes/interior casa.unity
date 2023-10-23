@@ -7283,6 +7283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4212514153e69754a96ec3cf8a021c5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeOnCollide: 0
   ToCamera: {fileID: 912352502}
 --- !u!4 &832930943 stripped
 Transform:
@@ -7311,6 +7312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4212514153e69754a96ec3cf8a021c5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ChangeOnCollide: 0
   ToCamera: {fileID: 400835106}
 --- !u!1 &853050076
 GameObject:

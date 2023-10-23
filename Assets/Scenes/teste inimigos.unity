@@ -138,6 +138,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1502935130789312673, guid: 6b7d5fc98cfa1bc4184351ec6e5c8351, type: 3}
+      propertyPath: MaxHealth
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1502935130789312673, guid: 6b7d5fc98cfa1bc4184351ec6e5c8351, type: 3}
+      propertyPath: EnemyLayer.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 8027611714286360481, guid: 6b7d5fc98cfa1bc4184351ec6e5c8351, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -148,11 +156,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8027611714286360481, guid: 6b7d5fc98cfa1bc4184351ec6e5c8351, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.97
+      value: 7.65
       objectReference: {fileID: 0}
     - target: {fileID: 8027611714286360481, guid: 6b7d5fc98cfa1bc4184351ec6e5c8351, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.8874
+      value: 2.21
       objectReference: {fileID: 0}
     - target: {fileID: 8027611714286360481, guid: 6b7d5fc98cfa1bc4184351ec6e5c8351, type: 3}
       propertyPath: m_LocalPosition.z
@@ -394,6 +402,7 @@ MonoBehaviour:
   Speed: 5
   FocalDistance: 10
   AttackDistance: 2.7
+  HP: 2
 --- !u!1 &825994490
 GameObject:
   m_ObjectHideFlags: 0
