@@ -1,3 +1,4 @@
+using Animals.Enemies;
 using UnityEngine;
 
 namespace Player
@@ -94,6 +95,13 @@ namespace Player
         private void Attack()
         {
             playerAnimator.AttackAnimation();
+            
+            var enemy = Physics2D.OverlapCircle(transform.position, playerStatus.AttackRange, playerStatus.EnemyLayer);
+            if (enemy != null)
+            {
+                Debug.Log("Enemy hit");
+                enemy.GetComponent<EnemyControllerInterface>().Damage(playerStatus.Strength);
+            }
         }
 
         private void DetectGround()
@@ -145,6 +153,8 @@ namespace Player
         {
             if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.CompareTag("Box") || other.gameObject.layer == LayerMask.NameToLayer("Harmable"))
             {
+                isOnJumpable = true;
+                isJumping = false;
                 playerAnimator.PlayAnimation();
             }
         }

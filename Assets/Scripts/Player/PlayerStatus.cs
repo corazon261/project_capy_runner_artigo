@@ -13,7 +13,9 @@ namespace Player
 
         public Canvas Ui;
         private InterfaceWorldController interfaceWorldController;
-        
+        public float AttackRange = 2;
+        public LayerMask EnemyLayer;
+
         private void Awake()
         {
             Health = MaxHealth;
@@ -36,6 +38,12 @@ namespace Player
                 Time.timeScale = 0;
                 Debug.Log("Você morreu");
             }
+        }
+        
+        public void OnDrawGizmosSelected()
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, AttackRange);
         }
     }
 }
