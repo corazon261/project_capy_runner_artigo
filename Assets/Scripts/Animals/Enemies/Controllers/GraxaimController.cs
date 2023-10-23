@@ -4,11 +4,12 @@ using UnityEngine;
 
 namespace Animals.Enemies.Controllers
 {
-    public class GraxaimController : EnemyController
+    public class GraxaimController : EnemyController, EnemyControllerInterface
     {
         public float Speed;
         public float FocalDistance = 15;
         public float AttackDistance = 4;
+        public int HP = 5;
         
         private Rigidbody2D rig;
         private Transform player;
@@ -35,30 +36,60 @@ namespace Animals.Enemies.Controllers
             if (distance < AttackDistance)
             {
                 readyForAttack = true;
-                Attack();
+                Attack(true);
             }
             
             if (distance > AttackDistance && readyForAttack)
             {
                 readyForAttack = false;
-                animator.SetBool(Atacando, false);
+                Attack(false);
             }
             
             if (distance < FocalDistance && !readyForAttack)
             {
-                var playerDirection = player.position.x - transform.position.x;
-                playerDirection = playerDirection switch
-                {
-                    > 0 => 1,
-                    < 0 => -1,
-                    _ => playerDirection
-                };
-                
-                FlipX(playerDirection > 0);
-                
-                rig.velocity = new Vector2(playerDirection * Speed, rig.velocity.y);
+                Move();
             }
 
+            AnimationWalk();
+        }
+
+        
+        public override void Attack(bool attack = true)
+        {
+            animator.SetBool(Atacando, attack);
+        }
+
+        public override void Move()
+        {
+            var playerDirection = player.position.x - transform.position.x;
+            playerDirection = playerDirection switch
+            {
+                > 0 => 1,
+                < 0 => -1,
+                _ => playerDirection
+            };
+                
+            spriteRenderer.flipX = playerDirection > 0;
+                
+            rig.velocity = new Vector2(playerDirection * Speed, rig.velocity.y);
+        }
+
+        public override void Damage(int damage)
+        {
+            HP -= damage;
+            if (HP <= 0)
+            {
+                Die();
+            }
+        }
+
+        public override void Die()
+        {
+            Destroy(gameObject);
+        }
+        
+        public void AnimationWalk()
+        {
             if (Mathf.Abs(rig.velocity.x) > 0.3f)
             {
                 animator.SetBool(Movendo, true);
@@ -67,30 +98,6 @@ namespace Animals.Enemies.Controllers
             {
                 animator.SetBool(Movendo, false);
             }
-        }
-
-        private void FlipX(bool flipX)
-        {
-            spriteRenderer.flipX = flipX;
-        } 
-        public override void Attack()
-        {
-            animator.SetBool(Atacando, true);
-        }
-
-        public override void Move()
-        {
-            Debug.Log("Attacked");
-        }
-
-        public override void Damage(int damage)
-        {
-            Debug.Log("Attacked");
-        }
-
-        public override void Die()
-        {
-            Debug.Log("Attacked");
         }
         
         public void OnDrawGizmosSelected()
@@ -106,5 +113,6 @@ namespace Animals.Enemies.Controllers
             var player = GameObject.FindGameObjectWithTag("Player");
             player.GetComponent<PlayerStatus>().TakeDamage(1);
         }
+        
     }
 }
