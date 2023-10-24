@@ -395,8 +395,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.29585004, y: -0.29205, z: 0}
-    m_Extent: {x: 5.36465, y: 3.2062502, z: 0}
+    m_Center: {x: -0.29799986, y: -0.28235006, z: 0}
+    m_Extent: {x: 5.3627, y: 3.20015, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -1232,8 +1232,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.008850008, y: -0.1514, z: 0}
-    m_Extent: {x: 0.99905, y: 0.84870005, z: 0}
+    m_Center: {x: 0, y: -0.15045002, z: 0}
+    m_Extent: {x: 0.9953, y: 0.84865, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -1956,7 +1956,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 153167701227953996, guid: d84aed13356abdb4fbd8579b66bee707, type: 3}
       propertyPath: DialogueContents.Array.data[0].Name
-      value: Contrabandista 1
+      value: "L\xFAcio"
       objectReference: {fileID: 0}
     - target: {fileID: 153167701227953996, guid: d84aed13356abdb4fbd8579b66bee707, type: 3}
       propertyPath: DialogueContents.Array.data[0].Text
@@ -1964,7 +1964,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 153167701227953996, guid: d84aed13356abdb4fbd8579b66bee707, type: 3}
       propertyPath: DialogueContents.Array.data[1].Name
-      value: Contrabandista 2
+      value: "Carl\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 153167701227953996, guid: d84aed13356abdb4fbd8579b66bee707, type: 3}
       propertyPath: DialogueContents.Array.data[1].Text
@@ -1972,7 +1972,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 153167701227953996, guid: d84aed13356abdb4fbd8579b66bee707, type: 3}
       propertyPath: DialogueContents.Array.data[2].Name
-      value: Contrabandista 3
+      value: Armando
       objectReference: {fileID: 0}
     - target: {fileID: 153167701227953996, guid: d84aed13356abdb4fbd8579b66bee707, type: 3}
       propertyPath: DialogueContents.Array.data[2].Text
@@ -1980,7 +1980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 153167701227953996, guid: d84aed13356abdb4fbd8579b66bee707, type: 3}
       propertyPath: DialogueContents.Array.data[3].Name
-      value: Contrabandista 2
+      value: "Carl\xE3o"
       objectReference: {fileID: 0}
     - target: {fileID: 153167701227953996, guid: d84aed13356abdb4fbd8579b66bee707, type: 3}
       propertyPath: DialogueContents.Array.data[3].Text
@@ -1988,7 +1988,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 153167701227953996, guid: d84aed13356abdb4fbd8579b66bee707, type: 3}
       propertyPath: DialogueContents.Array.data[4].Name
-      value: Contrabandista 1
+      value: "L\xFAcio"
       objectReference: {fileID: 0}
     - target: {fileID: 153167701227953996, guid: d84aed13356abdb4fbd8579b66bee707, type: 3}
       propertyPath: DialogueContents.Array.data[4].Text
@@ -1996,7 +1996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 153167701227953996, guid: d84aed13356abdb4fbd8579b66bee707, type: 3}
       propertyPath: DialogueContents.Array.data[5].Name
-      value: Contrabandista 3
+      value: Armando
       objectReference: {fileID: 0}
     - target: {fileID: 153167701227953996, guid: d84aed13356abdb4fbd8579b66bee707, type: 3}
       propertyPath: DialogueContents.Array.data[5].Text
@@ -2142,8 +2142,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.0033999681, y: -0.15904999, z: 0}
-    m_Extent: {x: 1.0042, y: 0.84875, z: 0}
+    m_Center: {x: -0.0025000274, y: -0.14949998, z: 0}
+    m_Extent: {x: 0.9984, y: 0.849, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -3054,8 +3054,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.0017000139, y: -0.15460002, z: 0}
-    m_Extent: {x: 0.997, y: 0.8452, z: 0}
+    m_Center: {x: 0.0020499825, y: -0.15055001, z: 0}
+    m_Extent: {x: 0.99385, y: 0.84585, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -9800,8 +9800,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000030994, y: 144.81}
-  m_SizeDelta: {x: 83.5471, y: 66.3789}
+  m_AnchoredPosition: {x: 0.0000066757, y: 155.1}
+  m_SizeDelta: {x: 52.7215, y: 41.8877}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1297253160
 GameObject:
@@ -10280,8 +10280,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.65735006, y: 0.28849995, z: 0}
-    m_Extent: {x: 4.31185, y: 3.5180001, z: 0}
+    m_Center: {x: -0.64795005, y: 0.29385006, z: 0}
+    m_Extent: {x: 4.31105, y: 3.5174499, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -11163,8 +11163,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.00014999509, y: -0.15310001, z: 0}
-    m_Extent: {x: 0.99305, y: 0.8424, z: 0}
+    m_Center: {x: -0.0036499798, y: -0.16044998, z: 0}
+    m_Extent: {x: 0.99815, y: 0.84585, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -11746,8 +11746,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.12874997, y: 0.10780001, z: 0}
-    m_Extent: {x: 2.99375, y: 2.8034, z: 0}
+    m_Center: {x: -0.118499994, y: 0.10669994, z: 0}
+    m_Extent: {x: 2.997, y: 2.7974, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -15392,6 +15392,10 @@ PrefabInstance:
       propertyPath: KeyRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5150567660609161994, guid: b82697054a8c6cd4bb83b83aa61b6566, type: 3}
+      propertyPath: SceneToLoad
+      value: 
+      objectReference: {fileID: 102900000, guid: 79dc0d56d46752042bc874db5b3fc3f4, type: 3}
     - target: {fileID: 5150567660609161999, guid: b82697054a8c6cd4bb83b83aa61b6566, type: 3}
       propertyPath: m_Name
       value: SairCasa

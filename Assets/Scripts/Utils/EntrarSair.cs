@@ -1,12 +1,15 @@
 using Dialogues;
 using Ui;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Utils;
 
 public class EntrarSair : MonoBehaviour
 {
     public Transform Destino;
     public bool KeyRequired;
+    public SceneAsset SceneToLoad; 
 
     private IconsCanvasManager iconCanvasScript;
     private GameObject jogador;
@@ -59,6 +62,11 @@ public class EntrarSair : MonoBehaviour
             if (scriptChangeCamera != null)
             {
                 scriptChangeCamera.ChangeActiveCamera();
+            }
+            
+            if (SceneToLoad != null)
+            {
+                SceneManager.LoadScene(SceneToLoad.name);
             }
         }
         else
