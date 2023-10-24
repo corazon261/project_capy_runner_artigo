@@ -56705,6 +56705,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CameraHandler
       objectReference: {fileID: 0}
+    - target: {fileID: 7072774738506677392, guid: ad590419abe53e948998e5513156d051, type: 3}
+      propertyPath: StartCamera
+      value: 
+      objectReference: {fileID: 704556068}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad590419abe53e948998e5513156d051, type: 3}
 --- !u!1 &1729026388
@@ -58690,6 +58694,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 403352118, guid: 6b7d5fc98cfa1bc4184351ec6e5c8351, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1790004130, guid: 6b7d5fc98cfa1bc4184351ec6e5c8351, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

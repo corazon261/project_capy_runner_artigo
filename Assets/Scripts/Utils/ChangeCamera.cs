@@ -8,6 +8,8 @@ namespace Utils
         public bool ChangeOnCollide;
         public Camera ToCamera;
         private CameraHandler cameraHandler;
+        private Camera previousCamera;
+        private bool isFirstTime = true;
         
         private void Start()
         {
@@ -16,8 +18,27 @@ namespace Utils
 
         public void ChangeActiveCamera()
         {
-            cameraHandler.DisableAllCameras();
-            ToCamera.enabled = true;
+            if (isFirstTime)
+            {
+                isFirstTime = false;
+                previousCamera = cameraHandler.GetCurrentActiveCamera().GetComponent<Camera>();
+
+                if (previousCamera == null)
+                {
+                    Debug.LogError("Sem cameras disponiveis");
+                }
+            }
+            
+            if (ToCamera.enabled)
+            {
+                cameraHandler.DisableAllCameras();
+                previousCamera.enabled = true;
+            }
+            else
+            {
+                cameraHandler.DisableAllCameras();
+                ToCamera.enabled = true;
+            }
         }
         
         private void OnTriggerEnter2D(Collider2D other)

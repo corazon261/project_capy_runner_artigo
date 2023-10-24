@@ -9,12 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 832dcdbdce4f8ae4086b2f65a1e19703
   - enabled: 1
-    path: "Assets/Scenes/di\xE1rio.unity"
-    guid: 84b4f1140c63354448d2cc686206c8c4
-  - enabled: 1
-    path: Assets/Scenes/Start Game.unity
-    guid: 2569e788ef98a6749b5d8a02f312bd79
-  - enabled: 1
     path: Assets/Scenes/interior casa.unity
     guid: 4f7d0865f9982fe4299a49eadd8accce
+  - enabled: 1
+    path: Assets/Scenes/fora de casa.unity
+    guid: 79dc0d56d46752042bc874db5b3fc3f4
+  - enabled: 1
+    path: Assets/Scenes/moantanha.unity
+    guid: 6e655e1be4856b043b4fae8ecc6a1388
+  - enabled: 1
+    path: Assets/Scenes/subterraneo.unity
+    guid: 115ade994a3d97a4787f1e38e000e55f
   m_configObjects: {}

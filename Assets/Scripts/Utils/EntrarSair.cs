@@ -57,7 +57,10 @@ public class EntrarSair : MonoBehaviour
         if (yes)
         {
             Time.timeScale = 1;
-            jogador.transform.position = Destino.position;
+            if (Destino != null)
+            {
+                jogador.transform.position = Destino.position;
+            }
             iconCanvasScript.AskBox.SetActive(false);
             if (scriptChangeCamera != null)
             {
