@@ -7,12 +7,12 @@ namespace Manager
     {
         public void Jogar()
         {
-            SceneManager.LoadScene("interior casa");
+            GameManager.Instance.PlayGame();           
         }
 
         public void Sair()
         {
-            Application.Quit();
+            GameManager.Instance.QuitGame();
         }
 
         public void Credits()
