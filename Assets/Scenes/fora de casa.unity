@@ -56705,8 +56705,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: CameraHandler
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7072774738506677392, guid: ad590419abe53e948998e5513156d051, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad590419abe53e948998e5513156d051, type: 3}
 --- !u!1 &1729026388
 GameObject:
@@ -58506,23 +58505,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7077200449754127925, guid: 0f22b919bd36a3c47b8da7709156b13e, type: 3}
   m_PrefabInstance: {fileID: 1922626164}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1970317505 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5280218161686486174, guid: ad590419abe53e948998e5513156d051, type: 3}
-  m_PrefabInstance: {fileID: 1682199611}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1970317508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1970317505}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23470f3b3266479f9d5a7f01bbcb5aaa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1979356122
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -58760,7 +58742,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4957370131987211137, guid: 6b7d5fc98cfa1bc4184351ec6e5c8351, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6b7d5fc98cfa1bc4184351ec6e5c8351, type: 3}
 --- !u!1001 &2021494188
 PrefabInstance:
