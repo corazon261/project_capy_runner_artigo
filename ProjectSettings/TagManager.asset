@@ -11,6 +11,7 @@ TagManager:
   - IconsCanvas
   - Enemy
   - InventoryCanvas
+  - Manager
   layers:
   - Default
   - TransparentFX
