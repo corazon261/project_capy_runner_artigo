@@ -25,7 +25,7 @@ namespace Utils
 
                 if (previousCamera == null)
                 {
-                    Debug.Log("LASCOU!!!");
+                    Debug.LogError("Sem cameras disponiveis");
                 }
             }
             
@@ -46,7 +46,6 @@ namespace Utils
             if (other.CompareTag("Player") && ChangeOnCollide)
             {
                 ChangeActiveCamera();
-                Debug.Log("Camera changed");
             }
         }
     }
