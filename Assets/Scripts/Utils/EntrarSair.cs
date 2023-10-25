@@ -3,101 +3,115 @@ using Ui;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Utils;
 
-public class EntrarSair : MonoBehaviour
+namespace Utils
 {
-    public Transform Destino;
-    public bool KeyRequired;
-    public SceneAsset SceneToLoad; 
-
-    private IconsCanvasManager iconCanvasScript;
-    private GameObject jogador;
-    private ChangeCamera scriptChangeCamera;
-    private bool isInside;
-    private bool hasKey;
-    private DialogueManager dialogueManager;
-    private bool onDialogue;
-
-    private void Start()
+    public class EntrarSair : MonoBehaviour
     {
-        jogador = GameObject.FindWithTag("Player");
-        scriptChangeCamera = GetComponent<ChangeCamera>();
-        iconCanvasScript = GameObject.FindGameObjectWithTag("IconsCanvas").GetComponent<IconsCanvasManager>();
-        dialogueManager = FindObjectOfType<DialogueManager>(true);
-    }
+        public Transform Destino;
+        public bool KeyRequired;
+        #if UNITY_EDITOR
+            public SceneAsset SceneToLoad; 
+        #endif
 
-    private void Update()
-    {
-        if (isInside && Input.GetKeyDown(KeyCode.X))
+        [SerializeField] private string SceneName;
+        private IconsCanvasManager iconCanvasScript;
+        private GameObject jogador;
+        private ChangeCamera scriptChangeCamera;
+        private bool isInside;
+        private bool hasKey;
+        private DialogueManager dialogueManager;
+        private bool onDialogue;
+        
+        private void Start()
         {
-            Time.timeScale = 0;
-            if (KeyRequired && !hasKey && !onDialogue)
+            jogador = GameObject.FindWithTag("Player");
+            scriptChangeCamera = GetComponent<ChangeCamera>();
+            iconCanvasScript = GameObject.FindGameObjectWithTag("IconsCanvas").GetComponent<IconsCanvasManager>();
+            dialogueManager = FindObjectOfType<DialogueManager>(true);
+        }
+
+        private void Update()
+        {
+            if (isInside && Input.GetKeyDown(KeyCode.X))
             {
-                dialogueManager.PrepareDialogue("", "Você não tem a chave :/");
-                dialogueManager.Activate();
-                onDialogue = true;
-                return;
-            }
+                Time.timeScale = 0;
+                if (KeyRequired && !hasKey && !onDialogue)
+                {
+                    dialogueManager.PrepareDialogue("", "Você não tem a chave :/");
+                    dialogueManager.Activate();
+                    onDialogue = true;
+                    return;
+                }
             
-            if (onDialogue)
+                if (onDialogue)
+                {
+                    dialogueManager.Deactivate();
+                    onDialogue = false;
+                    Time.timeScale = 1;
+                    return;
+                }
+            
+                iconCanvasScript.AskBox.SetActive(true);
+            }
+        }
+
+        public void Confirm(bool yes)
+        {
+            if (yes)
             {
-                dialogueManager.Deactivate();
-                onDialogue = false;
                 Time.timeScale = 1;
-                return;
-            }
-            
-            iconCanvasScript.AskBox.SetActive(true);
-        }
-    }
+                if (Destino != null)
+                {
+                    jogador.transform.position = Destino.position;
+                }
+                iconCanvasScript.AskBox.SetActive(false);
+                if (scriptChangeCamera != null)
+                {
+                    scriptChangeCamera.ChangeActiveCamera();
+                }
+                
+                #if UNITY_EDITOR
+                    if (SceneToLoad != null)
+                    {
+                        SceneManager.LoadScene(SceneToLoad.name);
+                        return;
+                    }
+                #endif
 
-    public void Confirm(bool yes)
-    {
-        if (yes)
-        {
-            Time.timeScale = 1;
-            if (Destino != null)
-            {
-                jogador.transform.position = Destino.position;
+                if (SceneName != null)
+                {
+                    SceneManager.LoadScene(SceneName);
+                }
+                
             }
-            iconCanvasScript.AskBox.SetActive(false);
-            if (scriptChangeCamera != null)
+            else
             {
-                scriptChangeCamera.ChangeActiveCamera();
-            }
-            
-            if (SceneToLoad != null)
-            {
-                SceneManager.LoadScene(SceneToLoad.name);
+                Time.timeScale = 1;
+                iconCanvasScript.AskBox.SetActive(false);
             }
         }
-        else
-        {
-            Time.timeScale = 1;
-            iconCanvasScript.AskBox.SetActive(false);
-        }
-    }
     
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        var iconsCanvasManager = iconCanvasScript;
-        iconsCanvasManager.ScriptEntrarSair = GetComponent<EntrarSair>();
-        iconsCanvasManager.IconIteraction.SetActive(true);
-        if (other.gameObject.CompareTag("Player"))
+        private void OnTriggerStay2D(Collider2D other)
         {
-            isInside = true;
+            var iconsCanvasManager = iconCanvasScript;
+            iconsCanvasManager.ScriptEntrarSair = GetComponent<EntrarSair>();
+            iconsCanvasManager.IconIteraction.SetActive(true);
+            if (other.gameObject.CompareTag("Player"))
+            {
+                isInside = true;
+            }
         }
-    }
 
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        iconCanvasScript.IconIteraction.SetActive(false);
-        isInside = false;
-    }
+        private void OnTriggerExit2D(Collider2D other)
+        {
+            iconCanvasScript.IconIteraction.SetActive(false);
+            isInside = false;
+        }
 
-    public void GetKey()
-    {
-        hasKey = true;
+        public void GetKey()
+        {
+            hasKey = true;
+        }
     }
 }
