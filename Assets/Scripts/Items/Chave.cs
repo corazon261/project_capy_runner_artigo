@@ -1,4 +1,5 @@
 using UnityEngine;
+using Utils;
 
 namespace Items
 {
@@ -10,7 +11,10 @@ namespace Items
         {
             if (other.gameObject.CompareTag("Player"))
             {
-                OpenDoor.GetComponent<EntrarSair>().GetKey();
+                if (OpenDoor != null)
+                {
+                    OpenDoor.GetComponent<EntrarSair>().GetKey();
+                }
                 Destroy(gameObject);
             }
         }
