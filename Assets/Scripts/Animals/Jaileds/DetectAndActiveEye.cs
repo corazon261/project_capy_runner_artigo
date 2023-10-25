@@ -3,6 +3,7 @@ using UnityEngine;
 
 namespace Animals.Jaileds
 {
+    [RequireComponent(typeof(BoxCollider2D))]
     public class DetectAndActiveEye : MonoBehaviour
     {
         private bool insideArea;

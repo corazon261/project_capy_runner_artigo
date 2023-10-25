@@ -948,6 +948,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 5a7ab84cbecce3f45b459262585f42cc, type: 3}
+--- !u!1 &74052349 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 153167701227953999, guid: d84aed13356abdb4fbd8579b66bee707, type: 3}
+  m_PrefabInstance: {fileID: 545868078}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &74052350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74052349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f8af8d8eb70435b86698d0c62689c94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneName: 
 --- !u!1 &76057078
 GameObject:
   m_ObjectHideFlags: 0
@@ -51577,8 +51595,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 2.4168496, y: 3.4469502, z: 0}
-    m_Extent: {x: 18.35655, y: 8.54985, z: 0}
+    m_Center: {x: 2.4135504, y: 3.44605, z: 0}
+    m_Extent: {x: 18.36575, y: 8.55035, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -60563,6 +60581,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 153167701227953996, guid: d84aed13356abdb4fbd8579b66bee707, type: 3}
+      propertyPath: SceneName
+      value: final
+      objectReference: {fileID: 0}
+    - target: {fileID: 153167701227953996, guid: d84aed13356abdb4fbd8579b66bee707, type: 3}
       propertyPath: DialogueContents.Array.size
       value: 5
       objectReference: {fileID: 0}
@@ -67490,11 +67512,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8027611714286360481, guid: 6b7d5fc98cfa1bc4184351ec6e5c8351, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -120.2
+      value: -118
       objectReference: {fileID: 0}
     - target: {fileID: 8027611714286360481, guid: 6b7d5fc98cfa1bc4184351ec6e5c8351, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.4
+      value: -8.4
       objectReference: {fileID: 0}
     - target: {fileID: 8027611714286360481, guid: 6b7d5fc98cfa1bc4184351ec6e5c8351, type: 3}
       propertyPath: m_LocalPosition.z

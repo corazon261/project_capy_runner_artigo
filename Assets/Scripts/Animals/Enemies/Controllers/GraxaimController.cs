@@ -81,6 +81,7 @@ namespace Animals.Enemies.Controllers
             {
                 Die();
             }
+            animator.SetTrigger("Dano");
         }
 
         public override void Die()

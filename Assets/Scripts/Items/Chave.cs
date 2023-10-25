@@ -3,6 +3,7 @@ using Utils;
 
 namespace Items
 {
+    [RequireComponent(typeof(BoxCollider2D))]
     public class Chave : MonoBehaviour
     {
         public GameObject OpenDoor;

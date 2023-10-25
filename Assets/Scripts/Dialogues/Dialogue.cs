@@ -1,6 +1,7 @@
 using System;
 using Ui;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Dialogues
 {
@@ -16,6 +17,8 @@ namespace Dialogues
 
         public bool OneTime;
         public DialogueContent[] DialogueContents;
+        [Header("Nome da scene se for mudar ao acabar o dialogo")]
+        public string SceneName;
         
         [SerializeField]
         private bool reachedEnd;
@@ -25,6 +28,7 @@ namespace Dialogues
         private IconsCanvasManager iconsCanvasManager;
         private int currentDialogueIndex;
         
+        
         private void Start()
         {
             dialogueManager = FindObjectOfType<DialogueManager>(true);
@@ -33,6 +37,11 @@ namespace Dialogues
 
         private void Update()
         {
+            if (reachedEnd && SceneName != "")
+            {
+                SceneManager.LoadScene(SceneName);
+            }
+            
             if (onDialogue && Input.GetKeyDown(KeyCode.X))
             {
                 if (currentDialogueIndex >= DialogueContents.Length)
@@ -45,7 +54,6 @@ namespace Dialogues
                         reachedEnd = true;
                         iconsCanvasManager.IconChat.SetActive(false);
                     }
-                    
                     Time.timeScale = 1;
                     return;
                 }

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Player
 {
@@ -35,7 +36,7 @@ namespace Player
         {
             if (Health <= 0)
             {
-                Time.timeScale = 0;
+                SceneManager.LoadScene("Start Game");
                 Debug.Log("Você morreu");
             }
         }
