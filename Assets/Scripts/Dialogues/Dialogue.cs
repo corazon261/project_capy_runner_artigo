@@ -4,6 +4,7 @@ using UnityEngine;
 
 namespace Dialogues
 {
+    [RequireComponent(typeof(BoxCollider2D))]
     public class Dialogue : MonoBehaviour
     {
         [Serializable]
