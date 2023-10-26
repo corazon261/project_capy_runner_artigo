@@ -79,7 +79,7 @@ namespace Utils
                     }
                 #endif
 
-                if (SceneName != null)
+                if (SceneName != "")
                 {
                     SceneManager.LoadScene(SceneName);
                 }
