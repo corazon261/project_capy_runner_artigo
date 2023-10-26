@@ -9,7 +9,7 @@ namespace Manager
 
         [SerializeField] GameObject ManagerObject;
 
-        [SerializeField] EGameState GameState;
+        [SerializeField] public EGameState GameState;
 
         public int teste;
 
@@ -24,12 +24,13 @@ namespace Manager
                 Destroy(gameObject);
             }
 
-            GameState = EGameState.Playing;
+            GameState = EGameState.Menu;
         }
 
         #region PlayGame Methods
         public void PlayGame()
         {
+            GameState = EGameState.Playing;
             LoadScene("interior casa");
         }
         #endregion
@@ -67,9 +68,9 @@ namespace Manager
         {
             //@ Resetar informações do player
 
-            GameState = EGameState.Playing;
+            GameState = EGameState.Menu;
             Time.timeScale = 1f;
-            LoadScene(0);            
+            LoadScene(1);            
         }
 
         public void QuitGame()
@@ -83,8 +84,9 @@ namespace Manager
     }
 
     #region Enum Related
-    enum EGameState
+    public enum EGameState
     {
+        Menu,
         Playing,
         Paused
     }
