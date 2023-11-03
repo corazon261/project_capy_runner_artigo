@@ -23,6 +23,7 @@ public class PauseScreenManager : MonoBehaviour
     {
         if (UIManager.Instance.screenUI == EScreenUI.Nothing)
         {
+            GetComponent<VolumeSettings>().GetMasterVolume();
             UIManager.Instance.SetScreenUI(EScreenUI.Pause);
             GameManager.Instance.PauseGame();
         }

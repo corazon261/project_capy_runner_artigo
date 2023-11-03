@@ -11,7 +11,7 @@ namespace Manager
 
         [SerializeField] public EGameState GameState;
 
-        public int teste;
+        public float volumeMaster = 1;
 
         private void Awake()
         {
