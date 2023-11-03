@@ -142,7 +142,6 @@ namespace Player
         {
             if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.CompareTag("Box") || other.gameObject.layer == LayerMask.NameToLayer("Harmable"))
             {
-                isOnJumpable = true;
                 isJumping = false;
                 playerAnimator.PlayAnimation();
                 playerAnimator.FallAnimation();
@@ -153,6 +152,7 @@ namespace Player
         {
             if (other.gameObject.layer == LayerMask.NameToLayer("Ground") || other.gameObject.CompareTag("Box") || other.gameObject.layer == LayerMask.NameToLayer("Harmable"))
             {
+                isJumping = false;
                 playerAnimator.PlayAnimation();
             }
         }
