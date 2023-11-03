@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -5326350652881879557, guid: 2f57dc97a4380b64d90d568a29d690b6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7058824, g: 0.7019608, b: 0.34117648, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d8210e8a21192b43b43f4e4dd4b36b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JumpForce: 19
+  JumpForce: 14.93
 --- !u!61 &6322844516537515589
 BoxCollider2D:
   m_ObjectHideFlags: 0
