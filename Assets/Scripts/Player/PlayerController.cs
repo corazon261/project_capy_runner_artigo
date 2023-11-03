@@ -27,6 +27,7 @@ namespace Player
         private float groundAngle;
         private Vector2 groundNormal;
         private Vector2 position;
+        private float spriteSizeX;
 
 
         private void Start()
@@ -35,6 +36,7 @@ namespace Player
             rig.gravityScale = GravityScale;
             playerAnimator = GetComponent<PlayerAnimator>();
             playerStatus = GetComponent<PlayerStatus>();
+            spriteSizeX = GetComponent<SpriteRenderer>().bounds.size.x;
         }
 
         public void Update()
@@ -106,13 +108,24 @@ namespace Player
 
         private void DetectGround()
         {
-            var hitGround = Physics2D.Raycast(position, Vector3.down, DistanceToGround, GroundMask);
-            var hitJumpable = Physics2D.Raycast(position, Vector3.down, DistanceToGround, JumpableMask);
-            isOnJumpable = hitGround || hitJumpable;
+            var hitGroundLeft = Physics2D.Raycast(position - new Vector2(spriteSizeX, 0), Vector2.down, DistanceToGround, GroundMask);
+            var hitGroundMiddle = Physics2D.Raycast(position, Vector3.down, DistanceToGround, GroundMask);
+            var hitGroundRight = Physics2D.Raycast(position + new Vector2(spriteSizeX, 0), Vector2.down, DistanceToGround, GroundMask);
+            
+            var hitJumpableMiddle = Physics2D.Raycast(position, Vector3.down, DistanceToGround, JumpableMask);
+            var hitJumpableLeft = Physics2D.Raycast(position - new Vector2(spriteSizeX, 0), Vector2.down, DistanceToGround, JumpableMask);
+            var hitJumpableRight = Physics2D.Raycast(position + new Vector2(spriteSizeX, 0), Vector2.down, DistanceToGround, JumpableMask);
+            
+            var onGround = hitGroundLeft || hitGroundMiddle || hitGroundRight;
+            var onJumpable = hitJumpableLeft || hitJumpableMiddle || hitJumpableRight;
+            
+            isOnJumpable = onGround || onJumpable;
             
             Debug.DrawRay(position, Vector3.down * DistanceToGround, Color.red);
+            Debug.DrawRay(position - new Vector2(spriteSizeX / 3, 0), Vector3.down * DistanceToGround, Color.red);
+            Debug.DrawRay(position + new Vector2(spriteSizeX / 3, 0), Vector3.down * DistanceToGround, Color.red);
             
-            groundNormal = hitGround.normal;
+            groundNormal = hitGroundMiddle.normal;
             groundAngle = Vector2.Angle(Vector2.up, groundNormal);
         }
 
