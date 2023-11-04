@@ -10,7 +10,9 @@ namespace Utils
         private CameraHandler cameraHandler;
         private Camera previousCamera;
         private bool isFirstTime = true;
-        
+        private bool isPositiveX;
+        private bool isPositiveY;
+
         private void Start()
         {
             cameraHandler = FindObjectOfType<CameraHandler>();
@@ -41,11 +43,30 @@ namespace Utils
             }
         }
         
+        private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.CompareTag("Player") && ChangeOnCollide)
+            {
+                var playerPosition = other.gameObject.transform.position;
+                var position = gameObject.transform.position;
+                isPositiveX = playerPosition.x > position.x;
+                isPositiveY = playerPosition.y > position.y;
+            }
+        }
+        
         private void OnTriggerExit2D(Collider2D other)
         {
             if (other.CompareTag("Player") && ChangeOnCollide)
             {
-                ChangeActiveCamera();
+                var playerPosition = other.gameObject.transform.position;
+                var position = gameObject.transform.position;
+                var thisPositiveX = playerPosition.x > position.x;
+                var thisPositiveY = playerPosition.y > position.y;
+
+                if (thisPositiveY != isPositiveY || thisPositiveX != isPositiveX)
+                {
+                    ChangeActiveCamera();   
+                }
             }
         }
     }
