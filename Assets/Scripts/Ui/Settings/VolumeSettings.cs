@@ -1,3 +1,4 @@
+using Manager;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
@@ -7,7 +8,7 @@ public class VolumeSettings : MonoBehaviour
     [SerializeField] AudioMixer audioMixer;
     [SerializeField] Slider volumeSlider;
     
-    public float volumeMasterMusic;
+    //public float volumeMasterMusic;
 
     private void Start()
     {
@@ -18,12 +19,12 @@ public class VolumeSettings : MonoBehaviour
     {
         float volume = volumeSlider.value;
         audioMixer.SetFloat("MasterVolume", Mathf.Log10(volume) * 20);
-        volumeMasterMusic = volume;
+        GameManager.Instance.volumeMaster = volume;
     }    
 
     public void GetMasterVolume()
     {
-        volumeSlider.value = volumeMasterMusic;
+        volumeSlider.value = GameManager.Instance.volumeMaster;
         float volume = volumeSlider.value;
         audioMixer.SetFloat("MasterVolume", Mathf.Log10(volume) * 20);
     }
