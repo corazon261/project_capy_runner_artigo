@@ -33,7 +33,7 @@ namespace Utils
 
         private void Update()
         {
-            if (isInside && Input.GetKeyDown(KeyCode.X))
+            if (isInside && Input.GetKeyDown(KeyCode.Y))
             {
                 Time.timeScale = 0;
                 if (KeyRequired && !hasKey && !onDialogue)

@@ -18,7 +18,7 @@ namespace Animals.Jaileds
 
         private void Update()
         {
-            if (insideArea && Input.GetKeyDown(KeyCode.X))
+            if (insideArea && Input.GetKeyDown(KeyCode.Y))
             {
                 ChangeAnimalsSprite();
             }

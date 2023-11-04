@@ -58,7 +58,7 @@ namespace Player
                 Jump();
             }
 
-            if (Input.GetKeyDown(KeyCode.X))
+            if (Input.GetKeyDown(KeyCode.Y))
             {
                 playerAnimator.AttackAnimation();
                 Attack();

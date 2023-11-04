@@ -42,7 +42,7 @@ namespace Dialogues
                 SceneManager.LoadScene(SceneName);
             }
             
-            if (onDialogue && Input.GetKeyDown(KeyCode.X))
+            if (onDialogue && Input.GetKeyDown(KeyCode.Y))
             {
                 if (currentDialogueIndex >= DialogueContents.Length)
                 {
@@ -61,7 +61,7 @@ namespace Dialogues
                 dialogueManager.PrepareDialogue(DialogueContents[currentDialogueIndex].Name, DialogueContents[currentDialogueIndex].Text);
                 dialogueManager.Activate();
                 currentDialogueIndex++;
-            } else if (isTriggered && Input.GetKeyDown(KeyCode.X) && !onDialogue && !reachedEnd)
+            } else if (isTriggered && Input.GetKeyDown(KeyCode.Y) && !onDialogue && !reachedEnd)
             {
                 dialogueManager.PrepareDialogue(DialogueContents[currentDialogueIndex].Name, DialogueContents[currentDialogueIndex].Text);
                 dialogueManager.Activate();
