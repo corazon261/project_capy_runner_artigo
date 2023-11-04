@@ -12,13 +12,15 @@ public class InputsUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && GameManager.Instance.GameState != EGameState.Menu)
+        if ((Input.GetKeyDown(KeyCode.Escape) || Input.GetButtonDown("btnPause")) && GameManager.Instance.GameState != EGameState.Menu)
         {
+            if (GameManager.Instance.inUIGame && GameManager.Instance.GameState != EGameState.Paused) return;
             PauseScreenManager.PauseGame();
         }
 
-        if (Input.GetKeyDown(KeyCode.R) && GameManager.Instance.GameState != EGameState.Menu)
+        if ((Input.GetKeyDown(KeyCode.R) || Input.GetButtonDown("btnBook")) && GameManager.Instance.GameState != EGameState.Menu)
         {
+            if (GameManager.Instance.inUIGame && GameManager.Instance.GameState != EGameState.Paused) return;
             BookManager.OpenBook();
         }
     }

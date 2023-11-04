@@ -1,4 +1,5 @@
 using Animals.Enemies;
+using Manager;
 using UnityEngine;
 
 namespace Player
@@ -52,13 +53,23 @@ namespace Player
 
         private void HandleInput()
         {
-            if (Input.GetButtonDown("Jump") && isOnJumpable && !isJumping)
+            if (!GameManager.Instance.inUIGame)
             {
-                playerAnimator.JumpAnimation();
-                Jump();
+                if (Input.GetButtonDown("Jump") && isOnJumpable && !isJumping)
+                {
+                    playerAnimator.JumpAnimation();
+                    Jump();
+                }
+            }
+            else
+            {
+                if ((Input.GetButton("Jump") || Input.GetButtonDown("Submit")) && (UIManager.Instance.screenUI == EScreenUI.Nothing))
+                {
+                    GameManager.Instance.inUIGame = false;
+                }
             }
 
-            if (Input.GetKeyDown(KeyCode.Y))
+            if (Input.GetKeyDown(KeyCode.Y) || Input.GetButtonDown("btnInteraction"))
             {
                 playerAnimator.AttackAnimation();
                 Attack();

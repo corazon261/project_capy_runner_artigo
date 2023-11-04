@@ -1,4 +1,5 @@
 using Dialogues;
+using Manager;
 using Ui;
 using UnityEditor;
 using UnityEngine;
@@ -22,7 +23,10 @@ namespace Utils
         private bool hasKey;
         private DialogueManager dialogueManager;
         private bool onDialogue;
-        
+
+        [Space(10)]
+        public GameObject uiBtnFirstSelectedAskBox;
+
         private void Start()
         {
             jogador = GameObject.FindWithTag("Player");
@@ -33,8 +37,10 @@ namespace Utils
 
         private void Update()
         {
-            if (isInside && Input.GetKeyDown(KeyCode.Y))
+            if (isInside && (Input.GetKeyDown(KeyCode.Y) || Input.GetButtonDown("btnInteraction")))
             {
+                if (UIManager.Instance.screenUI != EScreenUI.Nothing) return;
+
                 Time.timeScale = 0;
                 if (KeyRequired && !hasKey && !onDialogue)
                 {
@@ -50,9 +56,14 @@ namespace Utils
                     onDialogue = false;
                     Time.timeScale = 1;
                     return;
-                }
-            
+                }                
+
                 iconCanvasScript.AskBox.SetActive(true);
+
+                GameManager.Instance.inUIGame = true;
+                UIManager.Instance.screenUI = EScreenUI.Pause;
+
+                GameManager.Instance.SetFisrtSelected(uiBtnFirstSelectedAskBox);
             }
         }
 
@@ -74,6 +85,9 @@ namespace Utils
                 #if UNITY_EDITOR
                     if (SceneToLoad != null)
                     {
+                        GameManager.Instance.inUIGame = false;
+                        UIManager.Instance.screenUI = EScreenUI.Nothing;
+
                         SceneManager.LoadScene(SceneToLoad.name);
                         return;
                     }
@@ -81,6 +95,9 @@ namespace Utils
 
                 if (SceneName != "")
                 {
+                    GameManager.Instance.inUIGame = false;
+                    UIManager.Instance.screenUI = EScreenUI.Nothing;
+
                     SceneManager.LoadScene(SceneName);
                 }
                 
@@ -90,6 +107,9 @@ namespace Utils
                 Time.timeScale = 1;
                 iconCanvasScript.AskBox.SetActive(false);
             }
+
+            //GameManager.Instance.inUIGame = false;
+            UIManager.Instance.screenUI = EScreenUI.Nothing;
         }
     
         private void OnTriggerStay2D(Collider2D other)

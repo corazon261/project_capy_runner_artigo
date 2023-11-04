@@ -8,15 +8,25 @@ public class BookManager : MonoBehaviour
     [SerializeField] List<GameObject> pages;
     [SerializeField] int currentPage = 0;
 
+    [Space(10)]
+    public GameObject gameObjectBtnFirstSelected;
+
     private void Awake()
     {
         SetTheFristPage();
+    }
+
+    private void Start()
+    {
+        GameManager.Instance.SetFisrtSelected(gameObjectBtnFirstSelected);
     }
 
     public void OpenBook()
     {
         if (UIManager.Instance.screenUI == EScreenUI.Nothing)
         {
+            GameManager.Instance.SetFisrtSelected(gameObjectBtnFirstSelected);
+
             UIManager.Instance.SetScreenUI(EScreenUI.Book);
             GameManager.Instance.PauseGame();
         }
@@ -25,6 +35,7 @@ public class BookManager : MonoBehaviour
             if (UIManager.Instance.screenUI != EScreenUI.Book) return;
             
             UIManager.Instance.SetScreenUI(EScreenUI.Nothing);
+            GameManager.Instance.inUIGame = false;
             GameManager.Instance.ResumeGame();
         }
     }

@@ -1,3 +1,4 @@
+using Manager;
 using System;
 using Ui;
 using UnityEngine;
@@ -42,7 +43,7 @@ namespace Dialogues
                 SceneManager.LoadScene(SceneName);
             }
             
-            if (onDialogue && Input.GetKeyDown(KeyCode.Y))
+            if (onDialogue && (Input.GetKeyDown(KeyCode.Y) || Input.GetButtonDown("btnInteraction")))
             {
                 if (currentDialogueIndex >= DialogueContents.Length)
                 {
@@ -55,19 +56,33 @@ namespace Dialogues
                         iconsCanvasManager.IconChat.SetActive(false);
                     }
                     Time.timeScale = 1;
+
+                    GameManager.Instance.inUIGame = false;
+                    UIManager.Instance.screenUI = EScreenUI.Nothing;
+
                     return;
                 }
                 
                 dialogueManager.PrepareDialogue(DialogueContents[currentDialogueIndex].Name, DialogueContents[currentDialogueIndex].Text);
                 dialogueManager.Activate();
                 currentDialogueIndex++;
-            } else if (isTriggered && Input.GetKeyDown(KeyCode.Y) && !onDialogue && !reachedEnd)
+                
+                //GameManager.Instance.inUIGame = true;
+                //UIManager.Instance.screenUI = EScreenUI.Pause;
+
+
+            } else if (isTriggered && (Input.GetKeyDown(KeyCode.Y) || Input.GetButtonDown("btnInteraction")) && !onDialogue && !reachedEnd)
             {
+                if (UIManager.Instance.screenUI != EScreenUI.Nothing) return;
+                
                 dialogueManager.PrepareDialogue(DialogueContents[currentDialogueIndex].Name, DialogueContents[currentDialogueIndex].Text);
                 dialogueManager.Activate();
                 onDialogue = true;
                 currentDialogueIndex++;
                 Time.timeScale = 0;
+
+                GameManager.Instance.inUIGame = true;
+                UIManager.Instance.screenUI = EScreenUI.Pause;
             }
         }
 

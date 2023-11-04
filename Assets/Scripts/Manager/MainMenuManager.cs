@@ -5,6 +5,18 @@ namespace Manager
 {
     public class MainMenuManager : MonoBehaviour
     {
+        public GameObject firstSelectedTitle;
+        
+        private void Start()
+        {
+            GameManager.Instance.SetFisrtSelected(firstSelectedTitle);
+        }
+
+        public void SetFirstSelected(GameObject gameObject)
+        {
+            GameManager.Instance.SetFisrtSelected(gameObject);
+        }
+
         public void Jogar()
         {
             GameManager.Instance.PlayGame();           

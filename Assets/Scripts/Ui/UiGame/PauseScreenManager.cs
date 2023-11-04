@@ -6,23 +6,22 @@ using UnityEngine.Device;
 
 public class PauseScreenManager : MonoBehaviour
 {
+    public GameObject gameObjectBtnFirstSelected;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameManager.Instance.SetFisrtSelected(gameObjectBtnFirstSelected);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     #region Pause UI Methods
     public void PauseGame()
     {
         if (UIManager.Instance.screenUI == EScreenUI.Nothing)
         {
+            GameManager.Instance.SetFisrtSelected(gameObjectBtnFirstSelected);
+
             GetComponent<VolumeSettings>().GetMasterVolume();
             UIManager.Instance.SetScreenUI(EScreenUI.Pause);
             GameManager.Instance.PauseGame();
@@ -32,6 +31,7 @@ public class PauseScreenManager : MonoBehaviour
             if (UIManager.Instance.screenUI != EScreenUI.Pause) return;
 
             UIManager.Instance.SetScreenUI(EScreenUI.Nothing);
+            GameManager.Instance.inUIGame = false;
             GameManager.Instance.ResumeGame();
         }
     }

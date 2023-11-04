@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.EventSystems;
 
 namespace Manager
 {
@@ -12,6 +13,9 @@ namespace Manager
         [SerializeField] public EGameState GameState;
 
         public float volumeMaster = 1;
+
+        public bool inUIGame;
+        public bool inUIDialogue;
 
         private void Awake()
         {
@@ -53,14 +57,18 @@ namespace Manager
             if (GameState == EGameState.Paused) return;
 
             GameState = EGameState.Paused;
+            
             Time.timeScale = 0f;
+
+            inUIGame = true;
         }
 
         public void ResumeGame()
         {
             if (GameState == EGameState.Playing) return;
 
-            GameState = EGameState.Playing;
+            GameState = EGameState.Playing;            
+            
             Time.timeScale = 1f;
         }
 
@@ -79,6 +87,14 @@ namespace Manager
             UnityEditor.EditorApplication.isPlaying = false;
         #endif
             Application.Quit();
+        }
+        #endregion
+
+        #region Set Event System First Selected
+        public void SetFisrtSelected(GameObject gameObject)
+        {
+            EventSystem.current.SetSelectedGameObject(null);
+            EventSystem.current.SetSelectedGameObject(gameObject);
         }
         #endregion
     }
