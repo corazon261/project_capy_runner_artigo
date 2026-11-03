@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -21,11 +22,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -40,7 +43,9 @@ ScriptedImporter:
     cubemapConvolution: 0
     seamlessCubemap: 0
     alphaIsTransparency: 1
+    spriteTessellationMethod: 0
     spriteTessellationDetail: -1
+    spriteGeometrySubdivision: 0
     textureType: 8
     textureShape: 1
     singleChannelComponent: 0
@@ -75,11 +80,14 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
@@ -87,20 +95,22 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
-  importFileNodeState: 1
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   platformSettingsDirtyTick: 638314287342731512
-  textureAssetName: 
   singleSpriteImportData:
   - name: 
     originalName: 
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -122,6 +132,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.45454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -142,6 +153,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.45454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -162,6 +174,7 @@ ScriptedImporter:
     pivot: {x: 0.46875003, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -182,6 +195,7 @@ ScriptedImporter:
     pivot: {x: 0.46875003, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -202,6 +216,7 @@ ScriptedImporter:
     pivot: {x: 0.46875003, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -222,6 +237,7 @@ ScriptedImporter:
     pivot: {x: 0.46875003, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -242,6 +258,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -262,6 +279,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -282,6 +300,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -302,6 +321,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.45454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -322,6 +342,7 @@ ScriptedImporter:
     pivot: {x: 0.5151515, y: 0.5555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -342,6 +363,7 @@ ScriptedImporter:
     pivot: {x: 0.5151515, y: 0.5263158}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -362,6 +384,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5263158}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -382,6 +405,7 @@ ScriptedImporter:
     pivot: {x: 0.51428574, y: 0.5263158}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -402,6 +426,7 @@ ScriptedImporter:
     pivot: {x: 0.51428574, y: 0.5555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -422,6 +447,7 @@ ScriptedImporter:
     pivot: {x: 0.5151515, y: 0.5555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -442,6 +468,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -462,6 +489,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -482,6 +510,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -502,6 +531,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -522,6 +552,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -542,6 +573,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -562,6 +594,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -582,6 +615,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.4166667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -602,6 +636,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.35}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 87
@@ -622,6 +657,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.45000002}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 87
@@ -642,6 +678,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0.5263158}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -662,6 +699,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.5555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -682,6 +720,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 87
@@ -702,6 +741,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -722,6 +762,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -742,6 +783,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -762,6 +804,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 87
@@ -782,6 +825,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 87
@@ -802,6 +846,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -822,6 +867,7 @@ ScriptedImporter:
     pivot: {x: 0.48484847, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -842,6 +888,7 @@ ScriptedImporter:
     pivot: {x: 0.48484847, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -862,6 +909,7 @@ ScriptedImporter:
     pivot: {x: 0.48484847, y: 0.5263158}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -882,6 +930,7 @@ ScriptedImporter:
     pivot: {x: 0.48484847, y: 0.5263158}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -902,6 +951,7 @@ ScriptedImporter:
     pivot: {x: 0.48484847, y: 0.5294118}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -922,6 +972,7 @@ ScriptedImporter:
     pivot: {x: 0.48484847, y: 0.5294118}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -942,6 +993,7 @@ ScriptedImporter:
     pivot: {x: 0.48484847, y: 0.5555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -962,6 +1014,7 @@ ScriptedImporter:
     pivot: {x: 0.48484847, y: 0.5555556}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -982,6 +1035,7 @@ ScriptedImporter:
     pivot: {x: 0.48484847, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -1002,6 +1056,7 @@ ScriptedImporter:
     pivot: {x: 0.48484847, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -1022,6 +1077,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 87
@@ -1042,6 +1098,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.5263158}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -1062,6 +1119,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 87
@@ -1082,6 +1140,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.45454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1102,6 +1161,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.43478262}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1122,6 +1182,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.43478262}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1142,6 +1203,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1162,6 +1224,7 @@ ScriptedImporter:
     pivot: {x: 0.42857143, y: 0.5263158}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -1182,6 +1245,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -1202,6 +1266,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -1222,6 +1287,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -1242,6 +1308,7 @@ ScriptedImporter:
     pivot: {x: 0.48387098, y: 0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -1262,6 +1329,7 @@ ScriptedImporter:
     pivot: {x: 0.4827586, y: 0.47368422}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -1278,472 +1346,536 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 126, y: 368}
   spriteSheetImportData: []
+  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -373473929
+    uuid:
+      value0: 1243193363
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 1243193363
     name: capivara
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: capivara_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 22
       spriteId: ce3d417530030354daee6dd41a280e09
-    - name: capivara_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 22
       spriteId: 09f9339d6a096ed4497b62adf3602359
-    - name: capivara_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 32
         height: 21
       spriteId: cf234e24f7d7d4545a04cc9e0bd2d3cb
-    - name: capivara_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 32
         height: 20
       spriteId: 2d1cafdb31cd25347be20548d113da07
-    - name: capivara_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 32
         height: 20
       spriteId: bb334a90b0997be478936d9214fbbd79
-    - name: capivara_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 32
         height: 20
       spriteId: e6c9d0f58179de8458a2f98d5fc6c801
-    - name: capivara_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 20
       spriteId: c189bd70c0b9ff143abaab8a1b626e93
-    - name: capivara_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 21
       spriteId: 74d674499d326ac40aac16eb2339c8a6
-    - name: capivara_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 21
       spriteId: 9c070de4b44b95e44821832e4cb0dec7
-    - name: capivara_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 22
       spriteId: f1e174bfcfa6ba840a3ef9c38f80bdc6
-    - name: capivara_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 6
         width: 33
         height: 18
       spriteId: 065fd8ebb6d9b4e4b9a9794e01ce8a88
-    - name: capivara_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 6
         width: 33
         height: 19
       spriteId: c9947d50ca4e6da4ba6f2cfe0e88e222
-    - name: capivara_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 6
         width: 34
         height: 19
       spriteId: 60bcc4ce1c2db8a4a952918fb71e37ee
-    - name: capivara_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 6
         width: 35
         height: 19
       spriteId: 5afe4836fca441b4dabbe8635467740b
-    - name: capivara_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 6
         width: 35
         height: 18
       spriteId: 7293ddda999fcac498a60346d6ee8941
-    - name: capivara_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 6
         width: 33
         height: 18
       spriteId: 19ed3b52490459242bda98eef5d24b65
-    - name: capivara_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 6
         width: 34
         height: 18
       spriteId: b01953b2ae707914c8fb817b47127e9c
-    - name: capivara_Frame_40
+    - name: Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 21
       spriteId: 4f1bbe6091e21664ba978af3b5036e4e
-    - name: capivara_Frame_41
+    - name: Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 20
       spriteId: c66c3b535d62455408efc04595c2cb04
-    - name: capivara_Frame_42
+    - name: Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 20
       spriteId: d7146a2085338db4297bc6d18bbe2320
-    - name: capivara_Frame_43
+    - name: Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 20
       spriteId: 8a186bf8ecadbbc46980ebada948e929
-    - name: capivara_Frame_44
+    - name: Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 20
       spriteId: 343c2d8178356664c900cebc5cc9e4dd
-    - name: capivara_Frame_45
+    - name: Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 6
         width: 32
         height: 21
       spriteId: 7fdc4a108cc88c743abd8bcac081e581
-    - name: capivara_Frame_46
+    - name: Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 6
         width: 32
         height: 24
       spriteId: 40d3493be49e7d14e9c04fe5df9b0561
-    - name: capivara_Frame_47
+    - name: Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 9
         width: 31
         height: 20
       spriteId: d98a53c48fbfad142a0f14a40b5b1fab
-    - name: capivara_Frame_48
+    - name: Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 7
         width: 31
         height: 20
       spriteId: 4200e30bdc1fcd3418339f22a22ed7a4
-    - name: capivara_Frame_49
+    - name: Frame_49
       frameIndex: 49
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 6
         width: 32
         height: 19
       spriteId: 2fc34ac82c4d182458eb9b4c156c1dcb
-    - name: capivara_Frame_50
+    - name: Frame_50
       frameIndex: 50
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 18
       spriteId: a842a082782db924b9fb883de8ce4383
-    - name: capivara_Frame_51
+    - name: Frame_51
       frameIndex: 51
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 20
       spriteId: 289b1917d8a215447b31a858497c55fe
-    - name: capivara_Frame_52
+    - name: Frame_52
       frameIndex: 52
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 21
       spriteId: 4212ec59c5d64a442851c0b549addff7
-    - name: capivara_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 21
       spriteId: 815a9d124961e9d419ec08853d49acf2
-    - name: capivara_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 21
       spriteId: 7c9d252c4183ddd43a61e79b73ea9f1c
-    - name: capivara_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 20
       spriteId: 08483326755943b4c84346547ee19a91
-    - name: capivara_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 20
       spriteId: c8b07280d3e475a4590ebd7278fd329d
-    - name: capivara_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 21
       spriteId: fdd67d24a661aa1459ea7520f208d00a
-    - name: capivara_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 7
         width: 33
         height: 18
       spriteId: e68ab8839ba2eef43a2602a7c3ff1b4d
-    - name: capivara_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 7
         width: 33
         height: 18
       spriteId: 5def8691114783b4393d35588833d00b
-    - name: capivara_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 6
         width: 33
         height: 19
       spriteId: 014a48e2b072727419214eb485073a1c
-    - name: capivara_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 6
         width: 33
         height: 19
       spriteId: 2924f442c70dc5546877df68bffb0c79
-    - name: capivara_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 7
         width: 33
         height: 17
       spriteId: f1e2d870c4900594e94af7a256b1ddd9
-    - name: capivara_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 7
         width: 33
         height: 17
       spriteId: 1756c0c470ffbe948b6f3f75ac1f298f
-    - name: capivara_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 6
         width: 33
         height: 18
       spriteId: 5875b8aa6a5140a4ea34e7e80c00a0e3
-    - name: capivara_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 6
         width: 33
         height: 18
       spriteId: 682ff5a330eafc34082d4954fec4c411
-    - name: capivara_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 7
         width: 33
         height: 18
       spriteId: 7ab84285423267143b5a6ac1d91d626e
-    - name: capivara_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 7
         width: 33
         height: 18
       spriteId: bbb1b1aa1719274439a4a508c2bad49c
-    - name: capivara_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 20
       spriteId: d5d8d609cb25b2441a788c831eae8e17
-    - name: capivara_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 19
       spriteId: e90270cd24ac8c04b85d56667f3e20a1
-    - name: capivara_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 20
       spriteId: cb838f7a70e75ba468ab7ed038cc8861
-    - name: capivara_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 22
       spriteId: f02b6f67ff9391845ac2b7dfe971c6a5
-    - name: capivara_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 23
       spriteId: b934d63c8f5f4604589303f0827989d0
-    - name: capivara_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 23
       spriteId: 13d56d5fe722b73488bea0a5c4ad26c4
-    - name: capivara_Frame_38
+    - name: Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 21
       spriteId: 6c8e3367bdc8ae54596e47b38ec5cb01
-    - name: capivara_Frame_39
+    - name: Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 13
         y: 6
         width: 28
         height: 19
       spriteId: e224acbc8098a2c4a9e7d1736cc215f7
-    - name: capivara_Frame_53
+    - name: Frame_53
       frameIndex: 53
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 21
       spriteId: d914902917677824098408c228c212e3
-    - name: capivara_Frame_54
+    - name: Frame_54
       frameIndex: 54
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 21
       spriteId: 5fcf7919a5483c54ca45dcb31ec3e234
-    - name: capivara_Frame_55
+    - name: Frame_55
       frameIndex: 55
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 21
       spriteId: ca0bbf042677372448a7210085d50b29
-    - name: capivara_Frame_56
+    - name: Frame_56
       frameIndex: 56
+      additiveSortOrder: 0
       cellRect:
         x: 10
         y: 6
         width: 31
         height: 21
       spriteId: 3cbd0a0086880264b9ed6f99e96b98d1
-    - name: capivara_Frame_57
+    - name: Frame_57
       frameIndex: 57
+      additiveSortOrder: 0
       cellRect:
         x: 11
         y: 7
@@ -1751,10 +1883,14 @@ ScriptedImporter:
         height: 19
       spriteId: e664a80568700e3488e0664e50a76d6d
     linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
     parentIndex: -1
+  tileSets: []
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1766,6 +1902,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: Standalone
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1777,6 +1914,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: Server
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1788,6 +1926,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: Android
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1799,6 +1938,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: iPhone
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1810,6 +1950,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: WebGL
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1821,6 +1962,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: Windows Store Apps
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1832,6 +1974,7 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   - name: tvOS
     overridden: 0
+    ignorePlatformSupport: 0
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1841,6 +1984,7 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
-  spritePackingTag: 
+  previousTextureSize: {x: 256, y: 512}
   canvasSize: {x: 50, y: 32}

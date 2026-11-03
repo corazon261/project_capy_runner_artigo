@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -21,11 +22,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -40,7 +43,9 @@ ScriptedImporter:
     cubemapConvolution: 0
     seamlessCubemap: 0
     alphaIsTransparency: 1
+    spriteTessellationMethod: 0
     spriteTessellationDetail: -1
+    spriteGeometrySubdivision: 0
     textureType: 8
     textureShape: 1
     singleChannelComponent: 0
@@ -75,11 +80,14 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
@@ -87,20 +95,22 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
-  importFileNodeState: 1
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   platformSettingsDirtyTick: 0
-  textureAssetName: 
   singleSpriteImportData:
   - name: 
     originalName: 
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -122,6 +132,7 @@ ScriptedImporter:
     pivot: {x: 0.33333334, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 189
@@ -142,6 +153,7 @@ ScriptedImporter:
     pivot: {x: 0.3181818, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 188
@@ -162,6 +174,7 @@ ScriptedImporter:
     pivot: {x: 0.32608697, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 189
@@ -182,6 +195,7 @@ ScriptedImporter:
     pivot: {x: 0.47457626, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -202,6 +216,7 @@ ScriptedImporter:
     pivot: {x: 0.45614034, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -222,6 +237,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -242,6 +258,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -262,6 +279,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -282,6 +300,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -302,6 +321,7 @@ ScriptedImporter:
     pivot: {x: 0.6321839, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -322,6 +342,7 @@ ScriptedImporter:
     pivot: {x: 0.5135135, y: -0.042105265}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -342,6 +363,7 @@ ScriptedImporter:
     pivot: {x: 0.47222224, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -362,6 +384,7 @@ ScriptedImporter:
     pivot: {x: 0.45333335, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -382,6 +405,7 @@ ScriptedImporter:
     pivot: {x: 0.50574714, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -402,6 +426,7 @@ ScriptedImporter:
     pivot: {x: 0.46428573, y: -0.05376344}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -422,6 +447,7 @@ ScriptedImporter:
     pivot: {x: 0.57746476, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -442,6 +468,7 @@ ScriptedImporter:
     pivot: {x: 0.5394737, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -462,6 +489,7 @@ ScriptedImporter:
     pivot: {x: 0.5689655, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -482,6 +510,7 @@ ScriptedImporter:
     pivot: {x: 0.5689655, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -502,6 +531,7 @@ ScriptedImporter:
     pivot: {x: 0.46551725, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -522,6 +552,7 @@ ScriptedImporter:
     pivot: {x: 0.46938774, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 243
@@ -542,6 +573,7 @@ ScriptedImporter:
     pivot: {x: 0.30612245, y: -0.008928572}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 243
@@ -562,6 +594,7 @@ ScriptedImporter:
     pivot: {x: 0.25, y: -0.037383176}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -578,192 +611,221 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 554}
   spriteSheetImportData: []
+  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -851659028
+    uuid:
+      value0: 2745768348
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -1549198948
     name: C_Forte
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: C_Forte_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 49
         y: 0
         width: 45
         height: 109
       spriteId: 44079422f24333f44981c6e735e2fbb6
-    - name: C_Forte_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 50
         y: 0
         width: 44
         height: 110
       spriteId: 8ef238b0f1ddfe549b65298eb72bb7e9
-    - name: C_Forte_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 49
         y: 0
         width: 46
         height: 108
       spriteId: 65406f1ebd74c404ab443cf64b4f493d
-    - name: C_Forte_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 36
         y: 0
         width: 59
         height: 107
       spriteId: 65198476be37eb74cb70c9ec6acbddfd
-    - name: C_Forte_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 38
         y: 0
         width: 57
         height: 101
       spriteId: fb0d5590cb323364cbcf2bd7e326b253
-    - name: C_Forte_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 0
         width: 58
         height: 109
       spriteId: d5bf3627ce8e09345812f804836a2c38
-    - name: C_Forte_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 0
         width: 58
         height: 110
       spriteId: 616a18644a38cc942b72d9db7d899971
-    - name: C_Forte_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 0
         width: 58
         height: 105
       spriteId: a977146ff1173a9478bd3d80b090de65
-    - name: C_Forte_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 0
         width: 58
         height: 103
       spriteId: c7ebc6b2da3a03948a6f24ab8e6a6c5b
-    - name: C_Forte_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 0
         width: 87
         height: 104
       spriteId: 0ad2b0d9172200843b6bfb3876c19291
-    - name: C_Forte_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 4
         width: 111
         height: 95
       spriteId: f786a8e0156d2b84b832bbdcfce1b16e
-    - name: C_Forte_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 30
         y: 0
         width: 72
         height: 98
       spriteId: 1e9755c3dcf189d4b9d72ed08a452602
-    - name: C_Forte_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 30
         y: 0
         width: 75
         height: 104
       spriteId: 5d0ff961e61ca6845bb5ffc81f9edcff
-    - name: C_Forte_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 20
         y: 0
         width: 87
         height: 105
       spriteId: a257d914db52e2d4b9c86e1ad5e862bf
-    - name: C_Forte_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 12
         y: 5
         width: 112
         height: 93
       spriteId: 6c47a774d4523be4dafbc64434105f88
-    - name: C_Forte_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 0
         width: 71
         height: 100
       spriteId: e6ec8b189af524d4d8e5314a0f8c0b22
-    - name: C_Forte_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 0
         width: 76
         height: 102
       spriteId: 7d87e54b9b1256442bc2e9655dce405f
-    - name: C_Forte_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 31
         y: 0
         width: 58
         height: 109
       spriteId: b812525447397ad40897e11a1c897182
-    - name: C_Forte_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 31
         y: 0
         width: 58
         height: 106
       spriteId: 3f9ebd1c730f1aa4d82a2edb7678187c
-    - name: C_Forte_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 0
         width: 58
         height: 102
       spriteId: 69a8d8fd2d24e484588df8c0ebf1b4c8
-    - name: C_Forte_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 0
         width: 49
         height: 111
       spriteId: fe5133d3c502c8c44972c0df2f29361e
-    - name: C_Forte_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 49
         y: 1
         width: 49
         height: 112
       spriteId: 511e0c5f8c6908842a4f35b37a57dc7b
-    - name: C_Forte_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 47
         y: 4
@@ -771,8 +833,12 @@ ScriptedImporter:
         height: 107
       spriteId: 794cde37bbbd51348bf596b29a297fd8
     linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
     parentIndex: -1
+  tileSets: []
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
-  spritePackingTag: 
+  previousTextureSize: {x: 512, y: 1024}
   canvasSize: {x: 128, y: 128}

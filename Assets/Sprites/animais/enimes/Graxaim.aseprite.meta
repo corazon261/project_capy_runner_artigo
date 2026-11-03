@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -21,11 +22,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -40,7 +43,9 @@ ScriptedImporter:
     cubemapConvolution: 0
     seamlessCubemap: 0
     alphaIsTransparency: 1
+    spriteTessellationMethod: 0
     spriteTessellationDetail: -1
+    spriteGeometrySubdivision: 0
     textureType: 8
     textureShape: 1
     singleChannelComponent: 0
@@ -75,11 +80,14 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
@@ -87,20 +95,22 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
-  importFileNodeState: 1
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   platformSettingsDirtyTick: 0
-  textureAssetName: 
   singleSpriteImportData:
   - name: 
     originalName: 
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -122,6 +132,7 @@ ScriptedImporter:
     pivot: {x: 0.21232876, y: -0.069767445}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 244
@@ -142,6 +153,7 @@ ScriptedImporter:
     pivot: {x: 0.21527778, y: -0.069767445}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 325
@@ -162,6 +174,7 @@ ScriptedImporter:
     pivot: {x: 0.21527778, y: -0.07317073}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 409
@@ -182,6 +195,7 @@ ScriptedImporter:
     pivot: {x: 0.21232876, y: -0.071428575}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 405
@@ -202,6 +216,7 @@ ScriptedImporter:
     pivot: {x: 0.21232876, y: -0.071428575}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -222,6 +237,7 @@ ScriptedImporter:
     pivot: {x: 0.21232876, y: -0.071428575}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 85
@@ -242,6 +258,7 @@ ScriptedImporter:
     pivot: {x: 0.21232876, y: -0.071428575}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 166
@@ -262,6 +279,7 @@ ScriptedImporter:
     pivot: {x: 0.21232876, y: -0.07317073}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 409
@@ -282,6 +300,7 @@ ScriptedImporter:
     pivot: {x: 0.21232876, y: -0.07317073}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -302,6 +321,7 @@ ScriptedImporter:
     pivot: {x: 0.21232876, y: -0.07317073}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 85
@@ -322,6 +342,7 @@ ScriptedImporter:
     pivot: {x: 0.21232876, y: -0.071428575}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 247
@@ -342,6 +363,7 @@ ScriptedImporter:
     pivot: {x: 0.21232876, y: -0.071428575}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 328
@@ -362,6 +384,7 @@ ScriptedImporter:
     pivot: {x: 0.21232876, y: -0.07317073}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 166
@@ -382,6 +405,7 @@ ScriptedImporter:
     pivot: {x: 0.21232876, y: -0.07317073}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 247
@@ -402,6 +426,7 @@ ScriptedImporter:
     pivot: {x: 0.21232876, y: -0.07317073}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 328
@@ -422,6 +447,7 @@ ScriptedImporter:
     pivot: {x: 0.20138888, y: -0.06818182}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 164
@@ -442,6 +468,7 @@ ScriptedImporter:
     pivot: {x: 0.17857145, y: -0.06521739}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -462,6 +489,7 @@ ScriptedImporter:
     pivot: {x: 0.25657895, y: -0.08108108}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -482,6 +510,7 @@ ScriptedImporter:
     pivot: {x: 0.3, y: -0.083333336}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 88
@@ -502,6 +531,7 @@ ScriptedImporter:
     pivot: {x: 0.30405408, y: -0.08571428}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 171
@@ -522,6 +552,7 @@ ScriptedImporter:
     pivot: {x: 0.30405408, y: -0.08571428}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 253
@@ -542,6 +573,7 @@ ScriptedImporter:
     pivot: {x: 0.30405408, y: -0.08571428}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 335
@@ -562,6 +594,7 @@ ScriptedImporter:
     pivot: {x: 0.30405408, y: -0.08571428}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 417
@@ -582,6 +615,7 @@ ScriptedImporter:
     pivot: {x: 0.30405408, y: -0.08571428}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -602,6 +636,7 @@ ScriptedImporter:
     pivot: {x: 0.22297297, y: -0.069767445}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 82
@@ -618,208 +653,239 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 82, y: 4}
   spriteSheetImportData: []
+  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 2139007913
+    uuid:
+      value0: 1130517901
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 1130517901
     name: Graxaim
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Graxaim_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 3
         width: 73
         height: 43
       spriteId: 04e6d04d127204c4aa792250456a19c8
-    - name: Graxaim_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 3
         width: 72
         height: 43
       spriteId: 695228019c6883642b4123a83eff76f4
-    - name: Graxaim_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 3
         width: 72
         height: 41
       spriteId: 89c5320de41f3ec4c8eb9765cc30dd6e
-    - name: Graxaim_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 3
         width: 73
         height: 42
       spriteId: 9fa24f77937b8f64e87ad23d3fc4fe3b
-    - name: Graxaim_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 3
         width: 73
         height: 42
       spriteId: 0a04df37a9747cb4683e2bcba94c798a
-    - name: Graxaim_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 3
         width: 73
         height: 42
       spriteId: c9dd89bf7e8633841b48b895e86cbb56
-    - name: Graxaim_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 3
         width: 73
         height: 42
       spriteId: 7fb19984aa316d0488a8f4eab7fd6a35
-    - name: Graxaim_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 3
         width: 73
         height: 41
       spriteId: da46931b3c000604a902ceb352d9ddd7
-    - name: Graxaim_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 3
         width: 73
         height: 41
       spriteId: a7d5981fa7ea2984691a364d3d2e2100
-    - name: Graxaim_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 3
         width: 73
         height: 41
       spriteId: 5326621c2a0c79b4c81c2c021b93b92e
-    - name: Graxaim_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 3
         width: 73
         height: 42
       spriteId: 6e8010a70af80094e977d2a6e0d373ee
-    - name: Graxaim_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 3
         width: 73
         height: 42
       spriteId: fd23d8f94a59cfe45a9b73f626b63077
-    - name: Graxaim_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 3
         width: 73
         height: 41
       spriteId: 9722b194de94b4e4d970e14c15908f3f
-    - name: Graxaim_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 3
         width: 73
         height: 41
       spriteId: 081cefeec8c17bf40a5d8f9208e319e7
-    - name: Graxaim_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 60
         y: 3
         width: 73
         height: 41
       spriteId: 1f7796a1a257c8d46a8ea4759f3f91e6
-    - name: Graxaim_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 61
         y: 3
         width: 72
         height: 44
       spriteId: ba5a51515a60f704aa5edf12feaa43fa
-    - name: Graxaim_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 63
         y: 3
         width: 70
         height: 46
       spriteId: e7025810daf418444a38f515fde55f60
-    - name: Graxaim_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 56
         y: 3
         width: 76
         height: 37
       spriteId: 12bfafa3590b9a8408bb4f8bc3251942
-    - name: Graxaim_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 53
         y: 3
         width: 75
         height: 36
       spriteId: d8692550d4ed772459b2d5171fe6dcda
-    - name: Graxaim_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 53
         y: 3
         width: 74
         height: 35
       spriteId: 5583d1fe0a032674f8527c93f8fdc754
-    - name: Graxaim_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 53
         y: 3
         width: 74
         height: 35
       spriteId: f1c389291cbb03840863816e46e03fba
-    - name: Graxaim_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 53
         y: 3
         width: 74
         height: 35
       spriteId: 9942aed6f02c4ae41a72c29dc994bdc4
-    - name: Graxaim_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 53
         y: 3
         width: 74
         height: 35
       spriteId: 7565bbbfc31325848998327c076bea2b
-    - name: Graxaim_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 53
         y: 3
         width: 74
         height: 35
       spriteId: 70f1da8fd7f64fa4380c50748654bad1
-    - name: Graxaim_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 59
         y: 3
@@ -827,8 +893,12 @@ ScriptedImporter:
         height: 43
       spriteId: ec049cb7024305b4b9d3746b0789d4fb
     linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
     parentIndex: -1
+  tileSets: []
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
-  spritePackingTag: 
+  previousTextureSize: {x: 512, y: 256}
   canvasSize: {x: 151, y: 67}

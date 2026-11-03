@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -21,11 +22,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -40,7 +43,9 @@ ScriptedImporter:
     cubemapConvolution: 0
     seamlessCubemap: 0
     alphaIsTransparency: 1
+    spriteTessellationMethod: 0
     spriteTessellationDetail: -1
+    spriteGeometrySubdivision: 0
     textureType: 8
     textureShape: 1
     singleChannelComponent: 0
@@ -75,11 +80,14 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
@@ -87,20 +95,22 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
-  importFileNodeState: 1
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   platformSettingsDirtyTick: 0
-  textureAssetName: 
   singleSpriteImportData:
   - name: 
     originalName: 
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -122,6 +132,7 @@ ScriptedImporter:
     pivot: {x: 0.48387095, y: -1.2222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 75
@@ -142,6 +153,7 @@ ScriptedImporter:
     pivot: {x: 0.48387095, y: -1.375}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 75
@@ -162,6 +174,7 @@ ScriptedImporter:
     pivot: {x: 0.48387095, y: -1.375}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 75
@@ -182,6 +195,7 @@ ScriptedImporter:
     pivot: {x: 0.4666667, y: -1.2222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 37
@@ -202,6 +216,7 @@ ScriptedImporter:
     pivot: {x: 0.4666667, y: -1.1}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 37
@@ -222,6 +237,7 @@ ScriptedImporter:
     pivot: {x: 0.4666667, y: -0.7857143}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 37
@@ -242,6 +258,7 @@ ScriptedImporter:
     pivot: {x: 0.35999998, y: -0.6111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -262,6 +279,7 @@ ScriptedImporter:
     pivot: {x: 0.30434784, y: -0.6111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -282,6 +300,7 @@ ScriptedImporter:
     pivot: {x: 0.3181818, y: -0.6111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -302,6 +321,7 @@ ScriptedImporter:
     pivot: {x: 0.3181818, y: -0.6111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -322,6 +342,7 @@ ScriptedImporter:
     pivot: {x: 0.3181818, y: -0.6111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -342,6 +363,7 @@ ScriptedImporter:
     pivot: {x: 0.3181818, y: -0.6111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -362,6 +384,7 @@ ScriptedImporter:
     pivot: {x: 0.3181818, y: -0.6111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -382,6 +405,7 @@ ScriptedImporter:
     pivot: {x: 0.3181818, y: -0.6111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -402,6 +426,7 @@ ScriptedImporter:
     pivot: {x: 0.3181818, y: -0.6111111}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -422,6 +447,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -1.375}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 37
@@ -442,6 +468,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -1.2222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 37
@@ -462,6 +489,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -1.2222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 37
@@ -482,6 +510,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -1.375}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 37
@@ -502,6 +531,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -1.2222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 37
@@ -522,6 +552,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -1.2222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 37
@@ -542,6 +573,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -1.2222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 37
@@ -562,6 +594,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -1.2222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 37
@@ -582,6 +615,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -1.2222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 37
@@ -602,6 +636,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -1.2222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 37
@@ -618,208 +653,239 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 37, y: 180}
   spriteSheetImportData: []
+  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 760046551
+    uuid:
+      value0: 2652461043
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -1642506253
     name: zorrilho
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: zorrilho_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 11
         width: 31
         height: 9
       spriteId: b46e04414cbfb5b47b7237b0f9b3d233
-    - name: zorrilho_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 11
         width: 31
         height: 8
       spriteId: a8e91b11ab094cc4ea9e60ffc4e1219e
-    - name: zorrilho_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 11
         width: 31
         height: 8
       spriteId: 43df801298a7fa246b07cfb4008387c2
-    - name: zorrilho_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 11
         width: 30
         height: 9
       spriteId: 7098214be9015a64aac909f618ea0c64
-    - name: zorrilho_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 11
         width: 30
         height: 10
       spriteId: fdac34ce3b7e0fb4c85d3d833612ed2b
-    - name: zorrilho_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 11
         width: 30
         height: 14
       spriteId: 71e8d11a6f4531e428c7ebdf6bec34dd
-    - name: zorrilho_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 11
         width: 25
         height: 18
       spriteId: e047655c564c6204d85e9371b5f603b2
-    - name: zorrilho_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 11
         width: 23
         height: 18
       spriteId: 349b33954f9a76246bb5aa13d6283766
-    - name: zorrilho_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 11
         width: 22
         height: 18
       spriteId: 7733fff889eb73e469781233516850d5
-    - name: zorrilho_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 11
         width: 22
         height: 18
       spriteId: caf0f15c9bd9f7d478dcae1732d73606
-    - name: zorrilho_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 11
         width: 22
         height: 18
       spriteId: 294b785d5fbf47b41bf35ebe1326b73e
-    - name: zorrilho_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 11
         width: 22
         height: 18
       spriteId: 42fe36809d249794580c233eb643345e
-    - name: zorrilho_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 11
         width: 22
         height: 18
       spriteId: aa79e0360d0abef45bd7fa1dbcc1f520
-    - name: zorrilho_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 11
         width: 22
         height: 18
       spriteId: 2535db508a0e5fd48a79e87f2f07368a
-    - name: zorrilho_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 9
         y: 11
         width: 22
         height: 18
       spriteId: 8bcdeae6319d01d4abae295abf5f0081
-    - name: zorrilho_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 11
         width: 30
         height: 8
       spriteId: c5d40cb09dcebf34e898b8ce77e75826
-    - name: zorrilho_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 11
         width: 30
         height: 9
       spriteId: e568e5db5b7711845971ace0306279ab
-    - name: zorrilho_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 11
         width: 30
         height: 9
       spriteId: 5ec91371e96dc964bb5ca57d438f8fac
-    - name: zorrilho_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 11
         width: 30
         height: 8
       spriteId: fdfe506089530b548b0a431b7acd5619
-    - name: zorrilho_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 11
         width: 30
         height: 9
       spriteId: 6d9e36c38fdf19247a4ecadf45e53c6c
-    - name: zorrilho_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 11
         width: 30
         height: 9
       spriteId: e0d4233cdbec0e947967fa59e8d014df
-    - name: zorrilho_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 11
         width: 30
         height: 9
       spriteId: 9db3de0c85a63454e86ad7e2684aeac9
-    - name: zorrilho_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 11
         width: 30
         height: 9
       spriteId: 1646a7643cedfdf418841f1c9e22adec
-    - name: zorrilho_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 11
         width: 30
         height: 9
       spriteId: 94fd8c4259377c640a3a260e69432cf9
-    - name: zorrilho_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 11
@@ -827,8 +893,12 @@ ScriptedImporter:
         height: 9
       spriteId: ae2f6a37f1932a848b5a3b0ef696c195
     linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
     parentIndex: -1
+  tileSets: []
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
-  spritePackingTag: 
+  previousTextureSize: {x: 128, y: 256}
   canvasSize: {x: 32, y: 32}

@@ -88,11 +88,11 @@ namespace Player
 
             if (isOnSlope && !isJumping)
             {
-                rig.velocity = new Vector2(-vel * perpendicularSpeed.x, -vel * perpendicularSpeed.y); 
+                rig.linearVelocity = new Vector2(-vel * perpendicularSpeed.x, -vel * perpendicularSpeed.y); 
             }
             else
             {
-                rig.velocity = new Vector2(vel, rig.velocity.y);
+                rig.linearVelocity = new Vector2(vel, rig.linearVelocity.y);
             }
             
             VelocityLimiter();
@@ -157,9 +157,9 @@ namespace Player
 
         private void VelocityLimiter()
         {
-            var vel = new Vector2(0, Mathf.Clamp(rig.velocity.y, -MaxVelocityDown, MaxVelocityUp));
-            vel.x = Mathf.Clamp(rig.velocity.x, -MaxVelocityLeft, MaxVelocityRight);
-            rig.velocity = vel;
+            var vel = new Vector2(0, Mathf.Clamp(rig.linearVelocity.y, -MaxVelocityDown, MaxVelocityUp));
+            vel.x = Mathf.Clamp(rig.linearVelocity.x, -MaxVelocityLeft, MaxVelocityRight);
+            rig.linearVelocity = vel;
         }
 
         private void OnCollisionEnter2D(Collision2D other)

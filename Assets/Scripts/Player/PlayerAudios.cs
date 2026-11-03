@@ -26,12 +26,12 @@ namespace Player
         public void PlayFootstep()
         {
             footstepTimer -= Time.deltaTime;
-            if (Mathf.Abs(rb.velocity.x) > 0.1f && footstepTimer <= 0)
+            if (Mathf.Abs(rb.linearVelocity.x) > 0.1f && footstepTimer <= 0)
             {
                 audioSource.PlayOneShot(Footstep);
                 footstepTimer = Footstep.length;
             }
-            else if (Mathf.Abs(rb.velocity.x) < 0.1f)
+            else if (Mathf.Abs(rb.linearVelocity.x) < 0.1f)
             {
                 audioSource.Stop();
                 footstepTimer = 0;

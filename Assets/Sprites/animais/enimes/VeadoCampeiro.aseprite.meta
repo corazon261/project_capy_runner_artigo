@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -21,11 +22,13 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMasterTextureLimit: 0
+    ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -40,7 +43,9 @@ ScriptedImporter:
     cubemapConvolution: 0
     seamlessCubemap: 0
     alphaIsTransparency: 1
+    spriteTessellationMethod: 0
     spriteTessellationDetail: -1
+    spriteGeometrySubdivision: 0
     textureType: 8
     textureShape: 1
     singleChannelComponent: 0
@@ -75,11 +80,14 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
@@ -87,20 +95,22 @@ ScriptedImporter:
     defaultPivotSpace: 0
     defaultPivotAlignment: 7
     customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
     spritePadding: 0
     generateModelPrefab: 1
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
-  importFileNodeState: 1
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   platformSettingsDirtyTick: 0
-  textureAssetName: 
   singleSpriteImportData:
   - name: 
     originalName: 
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -122,6 +132,7 @@ ScriptedImporter:
     pivot: {x: 0.57377046, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 245
@@ -142,6 +153,7 @@ ScriptedImporter:
     pivot: {x: 0.57377046, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 314
@@ -162,6 +174,7 @@ ScriptedImporter:
     pivot: {x: 0.57377046, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 383
@@ -182,6 +195,7 @@ ScriptedImporter:
     pivot: {x: 0.57377046, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -202,6 +216,7 @@ ScriptedImporter:
     pivot: {x: 0.57377046, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 73
@@ -222,6 +237,7 @@ ScriptedImporter:
     pivot: {x: 0.5833333, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -242,6 +258,7 @@ ScriptedImporter:
     pivot: {x: 0.5833333, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 72
@@ -262,6 +279,7 @@ ScriptedImporter:
     pivot: {x: 0.5833333, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 448
@@ -282,6 +300,7 @@ ScriptedImporter:
     pivot: {x: 0.57377046, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 142
@@ -302,6 +321,7 @@ ScriptedImporter:
     pivot: {x: 0.5833333, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 415
@@ -322,6 +342,7 @@ ScriptedImporter:
     pivot: {x: 0.5833333, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 140
@@ -342,6 +363,7 @@ ScriptedImporter:
     pivot: {x: 0.5555556, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -362,6 +384,7 @@ ScriptedImporter:
     pivot: {x: 0.5555556, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 78
@@ -382,6 +405,7 @@ ScriptedImporter:
     pivot: {x: 0.530303, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -402,6 +426,7 @@ ScriptedImporter:
     pivot: {x: 0.5833333, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -422,6 +447,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 175
@@ -442,6 +468,7 @@ ScriptedImporter:
     pivot: {x: 0.46774197, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 309
@@ -462,6 +489,7 @@ ScriptedImporter:
     pivot: {x: 0.4426229, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 72
@@ -482,6 +510,7 @@ ScriptedImporter:
     pivot: {x: 0.49152547, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 449
@@ -502,6 +531,7 @@ ScriptedImporter:
     pivot: {x: 0.52238804, y: -0.18}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 229
@@ -522,6 +552,7 @@ ScriptedImporter:
     pivot: {x: 0.59999996, y: -0.20454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 141
@@ -542,6 +573,7 @@ ScriptedImporter:
     pivot: {x: 0.5555556, y: -0.20454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 211
@@ -562,6 +594,7 @@ ScriptedImporter:
     pivot: {x: 0.54347825, y: -0.20454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 149
@@ -582,6 +615,7 @@ ScriptedImporter:
     pivot: {x: 0.54347825, y: -0.20454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 249
@@ -602,6 +636,7 @@ ScriptedImporter:
     pivot: {x: 0.54347825, y: -0.20454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 349
@@ -622,6 +657,7 @@ ScriptedImporter:
     pivot: {x: 0.54347825, y: -0.20454547}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 75
@@ -642,6 +678,7 @@ ScriptedImporter:
     pivot: {x: 0.57377046, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 379
@@ -662,6 +699,7 @@ ScriptedImporter:
     pivot: {x: 0.57377046, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 208
@@ -682,6 +720,7 @@ ScriptedImporter:
     pivot: {x: 0.57377046, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 277
@@ -702,6 +741,7 @@ ScriptedImporter:
     pivot: {x: 0.57377046, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 346
@@ -718,248 +758,284 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 346, y: 224}
   spriteSheetImportData: []
+  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1144443199
+    uuid:
+      value0: 3951656187
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -343311109
     name: VeadoCampeiro
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: VeadoCampeiro_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 61
         height: 66
       spriteId: 750a02ced67d2d94e884ee1c77ebd0cb
-    - name: VeadoCampeiro_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 61
         height: 66
       spriteId: be2f4a396add8ae449f5ba10ff76bd93
-    - name: VeadoCampeiro_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 61
         height: 65
       spriteId: b73f20a001aa84b44b2fcd0e8d729858
-    - name: VeadoCampeiro_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 61
         height: 65
       spriteId: 879ee1e29ad77d344b7dca72e3a2f9ab
-    - name: VeadoCampeiro_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 61
         height: 65
       spriteId: bde46a2eb4bf5474296eed25e243b9d5
-    - name: VeadoCampeiro_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 60
         height: 66
       spriteId: ebdeffff7b2aea74f9949062ec92b192
-    - name: VeadoCampeiro_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 60
         height: 66
       spriteId: 41c1ad7df0149e840bf59af26dbb27f1
-    - name: VeadoCampeiro_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 60
         height: 65
       spriteId: 3f31dd505871d7445a3fa6df2331aedf
-    - name: VeadoCampeiro_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 61
         height: 65
       spriteId: 4a4f5a87a753fd64a8ba126aff8381b1
-    - name: VeadoCampeiro_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 60
         height: 65
       spriteId: f139e9327c6e89240afc798a7e3b3c12
-    - name: VeadoCampeiro_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 60
         height: 66
       spriteId: 0d4af484ecd2b5547a9621b66108f4ac
-    - name: VeadoCampeiro_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 63
         height: 66
       spriteId: b84c210f8cb6b2245bc1ddff5c2c76d5
-    - name: VeadoCampeiro_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 63
         height: 65
       spriteId: 233fa4536d09f414482df98552ed3616
-    - name: VeadoCampeiro_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 66
         height: 65
       spriteId: c7c95be38eab8fb43997f8a4a0eb2b72
-    - name: VeadoCampeiro_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 60
         height: 65
       spriteId: 0818fa75097763d4e983d346df905c97
-    - name: VeadoCampeiro_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 19
         y: 0
         width: 62
         height: 65
       spriteId: 023147cf80d7e5441b5260ea1a466acd
-    - name: VeadoCampeiro_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 62
         height: 63
       spriteId: 83ebfe2bd0608044292be3ca2cc57242
-    - name: VeadoCampeiro_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 0
         width: 61
         height: 59
       spriteId: 62f85fe82eaf0f547a862eb63bc9a82c
-    - name: VeadoCampeiro_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 0
         width: 59
         height: 59
       spriteId: 764f687f9a980b24783553f965acd652
-    - name: VeadoCampeiro_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 9
         width: 67
         height: 50
       spriteId: 058b54f40366c0d4093d430868b506fb
-    - name: VeadoCampeiro_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 9
         width: 80
         height: 44
       spriteId: 159ef7e6538de7347a199fda6ff3f886
-    - name: VeadoCampeiro_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 9
         width: 90
         height: 44
       spriteId: 460f024289ef3d84191793bf47c90bd8
-    - name: VeadoCampeiro_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 9
         width: 92
         height: 44
       spriteId: 222930cdaa96e5b408977f7ed159da0a
-    - name: VeadoCampeiro_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 9
         width: 92
         height: 44
       spriteId: 8ff539df836acc144800373a0cc3032a
-    - name: VeadoCampeiro_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 9
         width: 92
         height: 44
       spriteId: 40df824d6abe8b646b3a3d42379146a3
-    - name: VeadoCampeiro_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 9
         width: 92
         height: 44
       spriteId: 46c7a7c81aae20a46b91485b1220f929
-    - name: VeadoCampeiro_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 61
         height: 64
       spriteId: 193eb36a75bf67842b55b23d7b48f0ee
-    - name: VeadoCampeiro_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 61
         height: 64
       spriteId: 57bc53af8d66262459c38501d6077c93
-    - name: VeadoCampeiro_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
         width: 61
         height: 64
       spriteId: 13ef643acca9ccd4187e542ab3eff09f
-    - name: VeadoCampeiro_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 15
         y: 0
@@ -967,8 +1043,12 @@ ScriptedImporter:
         height: 64
       spriteId: f6e11f8c9e2b60f47aa896699edb2f2d
     linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
     parentIndex: -1
+  tileSets: []
   platformSettings: []
+  generatePhysicsShape: 0
   secondarySpriteTextures: []
-  spritePackingTag: 
+  previousTextureSize: {x: 512, y: 512}
   canvasSize: {x: 100, y: 67}

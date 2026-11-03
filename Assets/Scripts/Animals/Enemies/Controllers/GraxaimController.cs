@@ -71,7 +71,7 @@ namespace Animals.Enemies.Controllers
                 
             spriteRenderer.flipX = playerDirection > 0;
                 
-            rig.velocity = new Vector2(playerDirection * Speed, rig.velocity.y);
+            rig.linearVelocity = new Vector2(playerDirection * Speed, rig.linearVelocity.y);
         }
 
         public override void Damage(int damage)
@@ -91,7 +91,7 @@ namespace Animals.Enemies.Controllers
         
         public void AnimationWalk()
         {
-            if (Mathf.Abs(rig.velocity.x) > 0.3f)
+            if (Mathf.Abs(rig.linearVelocity.x) > 0.3f)
             {
                 animator.SetBool(Movendo, true);
             }

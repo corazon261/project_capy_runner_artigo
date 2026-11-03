@@ -18,7 +18,7 @@ namespace Objects
             {
                 animator.SetTrigger("pular");
                 var rig = other.gameObject.GetComponent<Rigidbody2D>();
-                rig.AddForce(new Vector2(0f, JumpForce - rig.velocity.y), ForceMode2D.Impulse);
+                rig.AddForce(new Vector2(0f, JumpForce - rig.linearVelocity.y), ForceMode2D.Impulse);
             }
         }
     }
